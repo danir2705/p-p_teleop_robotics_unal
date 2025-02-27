@@ -6,6 +6,6 @@
 
 ## Cinématica directa e inversa
 ## Cálculo del Jacobiano
-## Configuración Joystick
+## Configuración Joystick --- Botones (Control)
 ## Visualización Coppelia
 ## Configuración de la cámara
