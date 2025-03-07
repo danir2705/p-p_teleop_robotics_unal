@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/fb50eaa8-9b50-4d87-9480-91e45d748c35)# Pick and place using PS5 Controller for a Phantom X Pincher
+# Pick and place using PS5 Controller for a Phantom X Pincher
 ## Participants:
 - Jonathan Andrés Jimenez Trujillo
 - Daniel Mauricio Rivero Lozada
