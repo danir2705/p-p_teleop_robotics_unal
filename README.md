@@ -10,7 +10,8 @@
 ## Cinématica directa e inversa
 Para abordar la cinemática directa, se inicia con la toma de una imagen del robot Phantom Pincher en una posición en forma de "L", como se observa en la figura. Este enfoque se elige con el objetivo de simplificar los cálculos y el análisis de la cinemática directa. A continuación, se procedió a dibujar los sistemas de coordenadas correspondientes a cada una de las articulaciones, siguiendo el marco de referencia establecido por Denavit-Hartenberg. Posteriormente, se construye la matriz DH para la cinemática directa, analizando cada uno de los eslabones y articulaciones, tal como se ilustra en las imágenes a continuación.
 
-<img src="https://github.com/user-attachments/assets/6cbf92c4-93fd-450c-b00a-3b559d2b2505" width="300"/> ![image](https://github.com/user-attachments/assets/2d960813-d51e-4f69-ba6a-51efc1af2328)
+<img src="https://github.com/user-attachments/assets/6cbf92c4-93fd-450c-b00a-3b559d2b2505" width="300"/> ![image](https://github.com/user-attachments/assets/aeba4fe4-343d-4f64-9a35-3c4469fd515f)
+
 
 Con la matriz DH definida, se continúa el desarrollo en MATLAB utilizando el Toolbox de Peter Corke. Este se emplea para crear el modelo del robot Pincher con la matriz de cinemática directa y para generar los enlaces (links). Gracias a este mismo Toolbox, es posible calcular la matriz que relaciona la base con la primera articulación. Luego, se obtiene la matriz que vincula la primera articulación con la segunda. Al multiplicar las matrices 𝐴01 y 𝐴12, se obtiene 𝐴02, y así sucesivamente, hasta llegar al TCP. Este proceso será útil en etapas posteriores para el cálculo del Jacobiano, que será fundamental para la manipulación de las articulaciones del robot.
 
