@@ -1,4 +1,4 @@
-# Pick and place using PS5 Controller for a Phantom X Pincher
+![image](https://github.com/user-attachments/assets/fb50eaa8-9b50-4d87-9480-91e45d748c35)# Pick and place using PS5 Controller for a Phantom X Pincher
 ## Participants:
 - Jonathan Andrés Jimenez Trujillo
 - Daniel Mauricio Rivero Lozada
@@ -30,10 +30,14 @@ Método semi-manual:
    - Las siguientes tres filas se construyeron tomando cada columna como 𝑧𝑖−1.
 Esto dio como resultado una matriz jacobiana geométrica completa de tamaño 6×4.
 
+![image](https://github.com/user-attachments/assets/213e8eac-2d07-4190-bf5a-cbb5abe1ea86) ![image](https://github.com/user-attachments/assets/9e1734e4-310e-454c-a727-11a9a73f5fa6)
+
 2. Método automático con Peter Corke Toolbox:
-La segunda forma de obtener la matriz jacobiana fue utilizando la función jacob0 del toolbox de Peter Corke en MATLAB. Se verificó que los resultados obtenidos con ambos métodos fueran consistentes, lo que validó la precisión de ambos enfoques.
+La segunda forma de obtener la matriz jacobiana fue utilizando la función jacob0 del toolbox de Peter Corke en MATLAB 'J_g = (Pincher.jacob0(q))'. Se verificó que los resultados obtenidos con ambos métodos fueran consistentes, lo que validó la precisión de ambos enfoques.
 
 Aunque la función jacob0 proporcionó la matriz jacobiana, se decidió dejar la matriz expresada de manera simbólica para que pueda cambiar dinámicamente con respecto al vector 𝑞, que corresponde a la posición actual de las articulaciones del robot. Esto es crucial para la implementación, ya que en cada momento se reciben las posiciones actuales del robot y, por lo tanto, se recalcula el jacobiano en tiempo real.
+
+
 
 Para completar los cálculos, se necesitan dos vectores de entrada:
   - Un vector 𝑞 de tamaño 4×1, que representa los valores de las articulaciones del robot.
@@ -52,6 +56,7 @@ Este nodo tiene dos roles:
 ### Resultados y Pruebas
 Se realizaron pruebas en MATLAB con vectores de prueba y en el nodo de ROS2. Ambos métodos generaron los mismos resultados, lo que confirmó la correcta ejecución de los cálculos y el tratamiento adecuado de los vectores. Este enfoque asegura que el cálculo del jacobiano y el ajuste de las articulaciones se realicen de manera precisa y eficiente durante la operación del robot.
 
+![image](https://github.com/user-attachments/assets/15f25ea2-f42a-4849-a6e5-9cdadc402d2d) ![image](https://github.com/user-attachments/assets/219fa95e-96cf-4b3f-aaec-4c8e0d0101f5)
 
 ## Configuración Joystick --- Botones (Control)
 
