@@ -1,0 +1,40 @@
+[0.187s] Invoking command in 'C:\dev\p-p_teleop_robotics_unal\build\phantom_control': AMENT_PREFIX_PATH=C:\dev\p-p_teleop_robotics_unal\install\dynamixel_sdk;%AMENT_PREFIX_PATH% CMAKE_PREFIX_PATH=C:\dev\p-p_teleop_robotics_unal\install\dynamixel_sdk;C:\dev\p-p_teleop_robotics_unal\install\move_from_keys;C:\dev\p-p_teleop_robotics_unal\install\joystick_ros2;C:\Users\yeira\miniforge3\envs\humble\Library CONDA_PROMPT_MODIFIER=(humble) Path=C:\dev\p-p_teleop_robotics_unal\install\dynamixel_sdk\bin;%Path% C:\Users\yeira\miniforge3\envs\humble\Library\bin\cmake.EXE C:\dev\p-p_teleop_robotics_unal\src\phantom_control -DCMAKE_INSTALL_PREFIX=C:\dev\p-p_teleop_robotics_unal\install\phantom_control -G Visual Studio 17 2022
+[0.218s] CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.218s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.218s]   CMake.
+[0.218s] 
+[0.218s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.218s]   to tell CMake that the project requires at least <min> but has been updated
+[0.218s]   to work with policies introduced by <max> or earlier.
+[0.218s] 
+[0.218s] 
+[0.234s] -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.26100.
+[1.453s] -- The C compiler identification is MSVC 19.42.34436.0
+[2.156s] -- The CXX compiler identification is MSVC 19.42.34436.0
+[2.187s] -- Detecting C compiler ABI info
+[2.875s] -- Detecting C compiler ABI info - done
+[2.906s] -- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe - skipped
+[2.906s] -- Detecting C compile features
+[2.906s] -- Detecting C compile features - done
+[2.906s] -- Detecting CXX compiler ABI info
+[3.625s] -- Detecting CXX compiler ABI info - done
+[3.656s] -- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe - skipped
+[3.656s] -- Detecting CXX compile features
+[3.656s] -- Detecting CXX compile features - done
+[3.671s] -- Found hardware_interface: 2.47.0 (C:/Users/yeira/miniforge3/envs/humble/Library/share/hardware_interface/cmake)
+[5.859s] -- Found Python3: C:/Users/yeira/miniforge3/python.exe (found version "3.12.8") found components: Interpreter
+[6.265s] -- Found rosidl_generator_c: 3.1.6 (C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_generator_c/cmake)
+[6.281s] -- Found rosidl_adapter: 3.1.6 (C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_adapter/cmake)
+[6.312s] -- Found rosidl_generator_cpp: 3.1.6 (C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_generator_cpp/cmake)
+[6.359s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.406s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.828s] -- Found TinyXML2 via Config file: C:/Users/yeira/miniforge3/envs/humble/Library/lib/cmake/tinyxml2
+[6.968s] -- Found rmw_implementation_cmake: 6.1.2 (C:/Users/yeira/miniforge3/envs/humble/Library/share/rmw_implementation_cmake/cmake)
+[6.984s] -- Found rmw_fastrtps_cpp: 6.2.7 (C:/Users/yeira/miniforge3/envs/humble/Library/share/rmw_fastrtps_cpp/cmake)
+[7.062s] -- Found TinyXML2 via Config file: C:/Users/yeira/miniforge3/envs/humble/Library/lib/cmake/tinyxml2
+[7.078s] -- Found TinyXML2 via Config file: C:/Users/yeira/miniforge3/envs/humble/Library/lib/cmake/tinyxml2
+[7.109s] -- Found FastRTPS: C:/Users/yeira/miniforge3/envs/humble/Library/include
+[7.109s] -- Found TinyXML2 via Config file: C:/Users/yeira/miniforge3/envs/humble/Library/lib/cmake/tinyxml2
+[7.109s] -- Found TinyXML2 via Config file: C:/Users/yeira/miniforge3/envs/humble/Library/lib/cmake/tinyxml2
+[7.125s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.156s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD

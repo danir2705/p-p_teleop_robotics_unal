@@ -1,0 +1,32 @@
+[0.000000] (-) TimerEvent: {}
+[0.000000] (dynamixel_sdk) JobQueued: {'identifier': 'dynamixel_sdk', 'dependencies': OrderedDict()}
+[0.000000] (dynamixel_sdk_custom_interfaces) JobQueued: {'identifier': 'dynamixel_sdk_custom_interfaces', 'dependencies': OrderedDict()}
+[0.000000] (joy_controller) JobQueued: {'identifier': 'joy_controller', 'dependencies': OrderedDict()}
+[0.000000] (joystick_ros2) JobQueued: {'identifier': 'joystick_ros2', 'dependencies': OrderedDict()}
+[0.000000] (move_from_keys) JobQueued: {'identifier': 'move_from_keys', 'dependencies': OrderedDict()}
+[0.000000] (phantom_coppelia) JobQueued: {'identifier': 'phantom_coppelia', 'dependencies': OrderedDict()}
+[0.000000] (phantom_description) JobQueued: {'identifier': 'phantom_description', 'dependencies': OrderedDict()}
+[0.000000] (phantom_vision) JobQueued: {'identifier': 'phantom_vision', 'dependencies': OrderedDict()}
+[0.000000] (dynamixel_sdk_examples) JobQueued: {'identifier': 'dynamixel_sdk_examples', 'dependencies': OrderedDict([('dynamixel_sdk', 'C:\\dev\\p-p_teleop_robotics_unal\\install\\dynamixel_sdk'), ('dynamixel_sdk_custom_interfaces', 'C:\\dev\\p-p_teleop_robotics_unal\\install\\dynamixel_sdk_custom_interfaces')])}
+[0.000000] (phantom_control) JobQueued: {'identifier': 'phantom_control', 'dependencies': OrderedDict([('dynamixel_sdk', 'C:\\dev\\p-p_teleop_robotics_unal\\install\\dynamixel_sdk')])}
+[0.000000] (dynamixel_sdk) JobStarted: {'identifier': 'dynamixel_sdk'}
+[0.016000] (dynamixel_sdk_custom_interfaces) JobStarted: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.047000] (dynamixel_sdk_custom_interfaces) JobEnded: {'identifier': 'dynamixel_sdk_custom_interfaces', 'rc': 0}
+[0.047000] (joy_controller) JobStarted: {'identifier': 'joy_controller'}
+[0.078000] (joystick_ros2) JobStarted: {'identifier': 'joystick_ros2'}
+[0.110000] (-) TimerEvent: {}
+[0.110000] (move_from_keys) JobStarted: {'identifier': 'move_from_keys'}
+[0.125000] (phantom_coppelia) JobStarted: {'identifier': 'phantom_coppelia'}
+[0.156000] (phantom_description) JobStarted: {'identifier': 'phantom_description'}
+[0.172000] (phantom_vision) JobStarted: {'identifier': 'phantom_vision'}
+[0.203000] (dynamixel_sdk) JobEnded: {'identifier': 'dynamixel_sdk', 'rc': 'SIGINT'}
+[0.203000] (joy_controller) JobEnded: {'identifier': 'joy_controller', 'rc': 'SIGINT'}
+[0.203000] (phantom_coppelia) JobEnded: {'identifier': 'phantom_coppelia', 'rc': 'SIGINT'}
+[0.203000] (phantom_vision) JobEnded: {'identifier': 'phantom_vision', 'rc': 'SIGINT'}
+[0.203000] (move_from_keys) JobEnded: {'identifier': 'move_from_keys', 'rc': 'SIGINT'}
+[0.203000] (joystick_ros2) JobEnded: {'identifier': 'joystick_ros2', 'rc': 'SIGINT'}
+[0.203000] (phantom_description) JobEnded: {'identifier': 'phantom_description', 'rc': 'SIGINT'}
+[0.219000] (dynamixel_sdk_examples) JobSkipped: {'identifier': 'dynamixel_sdk_examples'}
+[0.219000] (-) TimerEvent: {}
+[0.219000] (phantom_control) JobSkipped: {'identifier': 'phantom_control'}
+[0.219000] (-) EventReactorShutdown: {}

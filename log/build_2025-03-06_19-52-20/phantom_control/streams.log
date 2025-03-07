@@ -1,0 +1,11 @@
+[0.172s] Invoking command in 'C:\dev\p-p_teleop_robotics_unal\build\phantom_control': CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;C:\dev\p-p_teleop_robotics_unal\install\joy_controller;C:\dev\p-p_teleop_robotics_unal\install\joystick_ros2;C:\Users\yeira\miniforge3\envs\humble\Library CONDA_PROMPT_MODIFIER=(humble) C:\Users\yeira\miniforge3\envs\humble\Library\bin\cmake.EXE C:\dev\p-p_teleop_robotics_unal\src\phantom_control -DCMAKE_INSTALL_PREFIX=C:\dev\p-p_teleop_robotics_unal\install\phantom_control -G Visual Studio 17 2022
+[0.219s] CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.219s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.219s]   CMake.
+[0.219s] 
+[0.219s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.219s]   to tell CMake that the project requires at least <min> but has been updated
+[0.219s]   to work with policies introduced by <max> or earlier.
+[0.219s] 
+[0.219s] 
+[0.250s] -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.26100.

@@ -1,0 +1,330 @@
+[0.268s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['C:\\Users\\yeira\\miniforge3\\envs\\humble\\Scripts\\colcon', 'build', '--symlink-install'][0m
+[0.268s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x000002AC934FBD50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x000002AC93411690>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x000002AC93411690>>)[0m
+[0.347s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.347s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.347s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.347s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.347s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.347s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.347s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in 'C:\dev\p-p_teleop_robotics_unal'
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.348s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.375s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.375s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.376s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore'
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ignore_ament_install'
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_pkg']
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_pkg'
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['colcon_meta']
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'colcon_meta'
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['ros']
+[0.378s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'ros'
+[0.379s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['cmake', 'python']
+[0.379s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'cmake'
+[0.379s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python'
+[0.379s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extensions ['python_setup_py']
+[0.379s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src) by extension 'python_setup_py'
+[0.379s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[0.379s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK) by extension 'ignore'
+[0.379s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK) by extension 'ignore_ament_install'
+[0.380s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK) by extensions ['colcon_pkg']
+[0.380s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK) by extension 'colcon_pkg'
+[0.380s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK) by extensions ['colcon_meta']
+[0.380s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK) by extension 'colcon_meta'
+[0.380s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK) by extensions ['ros']
+[0.380s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK) by extension 'ros'
+[0.380s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK) by extensions ['cmake', 'python']
+[0.380s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK) by extension 'cmake'
+[0.380s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK) by extension 'python'
+[0.380s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK) by extensions ['python_setup_py']
+[0.380s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK) by extension 'python_setup_py'
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk) by extension 'ignore'
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk) by extension 'ignore_ament_install'
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk) by extensions ['colcon_pkg']
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk) by extension 'colcon_pkg'
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk) by extensions ['colcon_meta']
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk) by extension 'colcon_meta'
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk) by extensions ['ros']
+[0.381s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk) by extension 'ros'
+[0.385s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\DynamixelSDK\dynamixel_sdk' with type 'ros.ament_cmake' and name 'dynamixel_sdk'[0m
+[0.385s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.385s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk_custom_interfaces) by extension 'ignore'
+[0.385s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk_custom_interfaces) by extension 'ignore_ament_install'
+[0.385s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk_custom_interfaces) by extensions ['colcon_pkg']
+[0.385s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk_custom_interfaces) by extension 'colcon_pkg'
+[0.385s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk_custom_interfaces) by extensions ['colcon_meta']
+[0.385s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk_custom_interfaces) by extension 'colcon_meta'
+[0.386s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk_custom_interfaces) by extensions ['ros']
+[0.386s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk_custom_interfaces) by extension 'ros'
+[0.386s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\DynamixelSDK\dynamixel_sdk_custom_interfaces' with type 'ros.ament_cmake' and name 'dynamixel_sdk_custom_interfaces'[0m
+[0.387s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk_examples) by extension 'ignore'
+[0.387s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk_examples) by extension 'ignore_ament_install'
+[0.387s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk_examples) by extensions ['colcon_pkg']
+[0.387s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk_examples) by extension 'colcon_pkg'
+[0.387s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk_examples) by extensions ['colcon_meta']
+[0.387s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk_examples) by extension 'colcon_meta'
+[0.387s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk_examples) by extensions ['ros']
+[0.387s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\DynamixelSDK\dynamixel_sdk_examples) by extension 'ros'
+[0.388s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\DynamixelSDK\dynamixel_sdk_examples' with type 'ros.ament_cmake' and name 'dynamixel_sdk_examples'[0m
+[0.389s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\docs) by extensions ['ignore', 'ignore_ament_install']
+[0.389s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\docs) by extension 'ignore'
+[0.389s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\docs) by extension 'ignore_ament_install'
+[0.389s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\docs) by extensions ['colcon_pkg']
+[0.389s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\docs) by extension 'colcon_pkg'
+[0.389s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\docs) by extensions ['colcon_meta']
+[0.389s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\docs) by extension 'colcon_meta'
+[0.389s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\docs) by extensions ['ros']
+[0.389s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\docs) by extension 'ros'
+[0.389s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\docs) by extensions ['cmake', 'python']
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\docs) by extension 'cmake'
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\docs) by extension 'python'
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\docs) by extensions ['python_setup_py']
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\docs) by extension 'python_setup_py'
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\joy_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\joy_controller) by extension 'ignore'
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\joy_controller) by extension 'ignore_ament_install'
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\joy_controller) by extensions ['colcon_pkg']
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\joy_controller) by extension 'colcon_pkg'
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\joy_controller) by extensions ['colcon_meta']
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\joy_controller) by extension 'colcon_meta'
+[0.391s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\joy_controller) by extensions ['ros']
+[0.391s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\joy_controller) by extension 'ros'
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\joy_controller' with type 'ros.ament_python' and name 'joy_controller'[0m
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\joystick_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\joystick_ros2) by extension 'ignore'
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\joystick_ros2) by extension 'ignore_ament_install'
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\joystick_ros2) by extensions ['colcon_pkg']
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\joystick_ros2) by extension 'colcon_pkg'
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\joystick_ros2) by extensions ['colcon_meta']
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\joystick_ros2) by extension 'colcon_meta'
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\joystick_ros2) by extensions ['ros']
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\joystick_ros2) by extension 'ros'
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\joystick_ros2' with type 'ros.ament_python' and name 'joystick_ros2'[0m
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\move_from_keys) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\move_from_keys) by extension 'ignore'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\move_from_keys) by extension 'ignore_ament_install'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\move_from_keys) by extensions ['colcon_pkg']
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\move_from_keys) by extension 'colcon_pkg'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\move_from_keys) by extensions ['colcon_meta']
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\move_from_keys) by extension 'colcon_meta'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\move_from_keys) by extensions ['ros']
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\move_from_keys) by extension 'ros'
+[0.395s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\move_from_keys' with type 'ros.ament_python' and name 'move_from_keys'[0m
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_control) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_control) by extension 'ignore'
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_control) by extension 'ignore_ament_install'
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_control) by extensions ['colcon_pkg']
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_control) by extension 'colcon_pkg'
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_control) by extensions ['colcon_meta']
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_control) by extension 'colcon_meta'
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_control) by extensions ['ros']
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_control) by extension 'ros'
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\phantom_control' with type 'ros.ament_cmake' and name 'phantom_control'[0m
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_coppelia) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_coppelia) by extension 'ignore'
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_coppelia) by extension 'ignore_ament_install'
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_coppelia) by extensions ['colcon_pkg']
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_coppelia) by extension 'colcon_pkg'
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_coppelia) by extensions ['colcon_meta']
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_coppelia) by extension 'colcon_meta'
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_coppelia) by extensions ['ros']
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_coppelia) by extension 'ros'
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\phantom_coppelia' with type 'ros.ament_cmake' and name 'phantom_coppelia'[0m
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_description) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_description) by extension 'ignore'
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_description) by extension 'ignore_ament_install'
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_description) by extensions ['colcon_pkg']
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_description) by extension 'colcon_pkg'
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_description) by extensions ['colcon_meta']
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_description) by extension 'colcon_meta'
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_description) by extensions ['ros']
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_description) by extension 'ros'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\phantom_description' with type 'ros.ament_cmake' and name 'phantom_description'[0m
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_vision) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_vision) by extension 'ignore'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_vision) by extension 'ignore_ament_install'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_vision) by extensions ['colcon_pkg']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_vision) by extension 'colcon_pkg'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_vision) by extensions ['colcon_meta']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_vision) by extension 'colcon_meta'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_vision) by extensions ['ros']
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(src\phantom_vision) by extension 'ros'
+[0.403s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'src\phantom_vision' with type 'ros.ament_cmake' and name 'phantom_vision'[0m
+[0.403s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.403s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.403s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.404s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.404s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.428s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk' build argument 'cmake_args' from command line to 'None'
+[0.428s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk' build argument 'cmake_target' from command line to 'None'
+[0.428s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.428s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.428s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.428s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.428s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.428s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.428s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.428s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'dynamixel_sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\dev\\p-p_teleop_robotics_unal\\build\\dynamixel_sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\dev\\p-p_teleop_robotics_unal\\install\\dynamixel_sdk', 'merge_install': False, 'path': 'C:\\dev\\p-p_teleop_robotics_unal\\src\\DynamixelSDK\\dynamixel_sdk', 'symlink_install': True, 'test_result_base': None}[0m
+[0.429s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.429s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.429s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.429s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.429s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.429s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk_custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.429s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk_custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.429s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.429s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk_custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.429s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'dynamixel_sdk_custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\dev\\p-p_teleop_robotics_unal\\build\\dynamixel_sdk_custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\dev\\p-p_teleop_robotics_unal\\install\\dynamixel_sdk_custom_interfaces', 'merge_install': False, 'path': 'C:\\dev\\p-p_teleop_robotics_unal\\src\\DynamixelSDK\\dynamixel_sdk_custom_interfaces', 'symlink_install': True, 'test_result_base': None}[0m
+[0.429s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joy_controller' build argument 'cmake_args' from command line to 'None'
+[0.429s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joy_controller' build argument 'cmake_target' from command line to 'None'
+[0.429s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joy_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.429s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joy_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.430s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joy_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.430s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joy_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.430s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joy_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.430s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joy_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.430s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joy_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.430s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'joy_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\dev\\p-p_teleop_robotics_unal\\build\\joy_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\dev\\p-p_teleop_robotics_unal\\install\\joy_controller', 'merge_install': False, 'path': 'C:\\dev\\p-p_teleop_robotics_unal\\src\\joy_controller', 'symlink_install': True, 'test_result_base': None}[0m
+[0.430s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joystick_ros2' build argument 'cmake_args' from command line to 'None'
+[0.430s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joystick_ros2' build argument 'cmake_target' from command line to 'None'
+[0.430s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joystick_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.430s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joystick_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.430s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joystick_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.430s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joystick_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.430s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joystick_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.430s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joystick_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.430s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'joystick_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.430s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'joystick_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\dev\\p-p_teleop_robotics_unal\\build\\joystick_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\dev\\p-p_teleop_robotics_unal\\install\\joystick_ros2', 'merge_install': False, 'path': 'C:\\dev\\p-p_teleop_robotics_unal\\src\\joystick_ros2', 'symlink_install': True, 'test_result_base': None}[0m
+[0.431s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'move_from_keys' build argument 'cmake_args' from command line to 'None'
+[0.431s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'move_from_keys' build argument 'cmake_target' from command line to 'None'
+[0.431s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'move_from_keys' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.431s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'move_from_keys' build argument 'cmake_clean_cache' from command line to 'False'
+[0.431s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'move_from_keys' build argument 'cmake_clean_first' from command line to 'False'
+[0.431s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'move_from_keys' build argument 'cmake_force_configure' from command line to 'False'
+[0.431s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'move_from_keys' build argument 'ament_cmake_args' from command line to 'None'
+[0.431s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'move_from_keys' build argument 'catkin_cmake_args' from command line to 'None'
+[0.431s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'move_from_keys' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.431s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'move_from_keys' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\dev\\p-p_teleop_robotics_unal\\build\\move_from_keys', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\dev\\p-p_teleop_robotics_unal\\install\\move_from_keys', 'merge_install': False, 'path': 'C:\\dev\\p-p_teleop_robotics_unal\\src\\move_from_keys', 'symlink_install': True, 'test_result_base': None}[0m
+[0.431s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_coppelia' build argument 'cmake_args' from command line to 'None'
+[0.431s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_coppelia' build argument 'cmake_target' from command line to 'None'
+[0.431s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_coppelia' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.431s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_coppelia' build argument 'cmake_clean_cache' from command line to 'False'
+[0.431s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_coppelia' build argument 'cmake_clean_first' from command line to 'False'
+[0.431s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_coppelia' build argument 'cmake_force_configure' from command line to 'False'
+[0.431s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_coppelia' build argument 'ament_cmake_args' from command line to 'None'
+[0.431s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_coppelia' build argument 'catkin_cmake_args' from command line to 'None'
+[0.431s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_coppelia' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.431s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'phantom_coppelia' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\dev\\p-p_teleop_robotics_unal\\build\\phantom_coppelia', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\dev\\p-p_teleop_robotics_unal\\install\\phantom_coppelia', 'merge_install': False, 'path': 'C:\\dev\\p-p_teleop_robotics_unal\\src\\phantom_coppelia', 'symlink_install': True, 'test_result_base': None}[0m
+[0.432s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_description' build argument 'cmake_args' from command line to 'None'
+[0.432s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_description' build argument 'cmake_target' from command line to 'None'
+[0.432s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.432s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.432s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.432s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.432s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.432s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.432s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.432s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'phantom_description' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\dev\\p-p_teleop_robotics_unal\\build\\phantom_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\dev\\p-p_teleop_robotics_unal\\install\\phantom_description', 'merge_install': False, 'path': 'C:\\dev\\p-p_teleop_robotics_unal\\src\\phantom_description', 'symlink_install': True, 'test_result_base': None}[0m
+[0.432s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_vision' build argument 'cmake_args' from command line to 'None'
+[0.432s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_vision' build argument 'cmake_target' from command line to 'None'
+[0.432s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.432s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[0.432s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_vision' build argument 'cmake_clean_first' from command line to 'False'
+[0.433s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_vision' build argument 'cmake_force_configure' from command line to 'False'
+[0.433s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_vision' build argument 'ament_cmake_args' from command line to 'None'
+[0.433s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[0.433s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.433s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'phantom_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\dev\\p-p_teleop_robotics_unal\\build\\phantom_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\dev\\p-p_teleop_robotics_unal\\install\\phantom_vision', 'merge_install': False, 'path': 'C:\\dev\\p-p_teleop_robotics_unal\\src\\phantom_vision', 'symlink_install': True, 'test_result_base': None}[0m
+[0.433s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk_examples' build argument 'cmake_args' from command line to 'None'
+[0.433s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk_examples' build argument 'cmake_target' from command line to 'None'
+[0.433s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.433s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.433s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.433s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.433s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.433s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.433s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'dynamixel_sdk_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.433s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'dynamixel_sdk_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\dev\\p-p_teleop_robotics_unal\\build\\dynamixel_sdk_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\dev\\p-p_teleop_robotics_unal\\install\\dynamixel_sdk_examples', 'merge_install': False, 'path': 'C:\\dev\\p-p_teleop_robotics_unal\\src\\DynamixelSDK\\dynamixel_sdk_examples', 'symlink_install': True, 'test_result_base': None}[0m
+[0.433s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_control' build argument 'cmake_args' from command line to 'None'
+[0.434s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_control' build argument 'cmake_target' from command line to 'None'
+[0.434s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.434s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.434s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.434s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.434s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.434s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.434s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'phantom_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.434s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'phantom_control' with the following arguments: {'ament_cmake_args': None, 'build_base': 'C:\\dev\\p-p_teleop_robotics_unal\\build\\phantom_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': 'C:\\dev\\p-p_teleop_robotics_unal\\install\\phantom_control', 'merge_install': False, 'path': 'C:\\dev\\p-p_teleop_robotics_unal\\src\\phantom_control', 'symlink_install': True, 'test_result_base': None}[0m
+[0.434s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.436s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.437s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in 'C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk' with build type 'ament_cmake'
+[0.437s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in 'C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk'
+[0.440s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.sh': Not used on Windows systems
+[0.440s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.467s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in 'C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk_custom_interfaces' with build type 'ament_cmake'
+[0.467s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in 'C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk_custom_interfaces'
+[0.468s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.492s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in 'C:\dev\p-p_teleop_robotics_unal\src\joy_controller' with build type 'ament_python'
+[0.492s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('joy_controller', 'ament_prefix_path')
+[0.492s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev\p-p_teleop_robotics_unal\install\joy_controller\share\joy_controller\hook\ament_prefix_path.ps1'
+[0.493s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev\p-p_teleop_robotics_unal\install\joy_controller\share\joy_controller\hook\ament_prefix_path.bat'
+[0.495s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev\p-p_teleop_robotics_unal\install\joy_controller\share\joy_controller\hook\ament_prefix_path.dsv'
+[0.496s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.518s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in 'C:\dev\p-p_teleop_robotics_unal\src\joystick_ros2' with build type 'ament_python'
+[0.520s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('joystick_ros2', 'ament_prefix_path')
+[0.520s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev\p-p_teleop_robotics_unal\install\joystick_ros2\share\joystick_ros2\hook\ament_prefix_path.ps1'
+[0.521s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev\p-p_teleop_robotics_unal\install\joystick_ros2\share\joystick_ros2\hook\ament_prefix_path.bat'
+[0.522s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev\p-p_teleop_robotics_unal\install\joystick_ros2\share\joystick_ros2\hook\ament_prefix_path.dsv'
+[0.522s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.546s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in 'C:\dev\p-p_teleop_robotics_unal\src\move_from_keys' with build type 'ament_python'
+[0.547s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('move_from_keys', 'ament_prefix_path')
+[0.547s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev\p-p_teleop_robotics_unal\install\move_from_keys\share\move_from_keys\hook\ament_prefix_path.ps1'
+[0.548s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook 'C:\dev\p-p_teleop_robotics_unal\install\move_from_keys\share\move_from_keys\hook\ament_prefix_path.bat'
+[0.549s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor 'C:\dev\p-p_teleop_robotics_unal\install\move_from_keys\share\move_from_keys\hook\ament_prefix_path.dsv'
+[0.549s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.573s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in 'C:\dev\p-p_teleop_robotics_unal\src\phantom_coppelia' with build type 'ament_cmake'
+[0.573s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in 'C:\dev\p-p_teleop_robotics_unal\src\phantom_coppelia'
+[0.573s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.598s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in 'C:\dev\p-p_teleop_robotics_unal\src\phantom_description' with build type 'ament_cmake'
+[0.598s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in 'C:\dev\p-p_teleop_robotics_unal\src\phantom_description'
+[0.598s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.622s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in 'C:\dev\p-p_teleop_robotics_unal\src\phantom_vision' with build type 'ament_cmake'
+[0.623s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in 'C:\dev\p-p_teleop_robotics_unal\src\phantom_vision'
+[0.623s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.658s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;C:\dev\p-p_teleop_robotics_unal\install\joy_controller;C:\dev\p-p_teleop_robotics_unal\install\joystick_ros2;C:\Users\yeira\miniforge3\envs\humble\Library CONDA_PROMPT_MODIFIER=(humble) C:\Users\yeira\miniforge3\envs\humble\Library\bin\cmake.EXE C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=C:\dev\p-p_teleop_robotics_unal\install\dynamixel_sdk_custom_interfaces[0m
+[1.019s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in 'C:\dev\p-p_teleop_robotics_unal\src\joy_controller'
+[1.020s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.391s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mWARNING[0m [33mPackage 'joystick_ros2' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)[0m
+[1.739s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in 'C:\dev\p-p_teleop_robotics_unal\src\move_from_keys'
+[1.741s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.769s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in 'C:\dev\p-p_teleop_robotics_unal\build\phantom_coppelia': CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;C:\dev\p-p_teleop_robotics_unal\install\joy_controller;C:\dev\p-p_teleop_robotics_unal\install\joystick_ros2;C:\Users\yeira\miniforge3\envs\humble\Library CONDA_PROMPT_MODIFIER=(humble) C:\Users\yeira\miniforge3\envs\humble\Library\bin\cmake.EXE C:\dev\p-p_teleop_robotics_unal\src\phantom_coppelia -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=C:\dev\p-p_teleop_robotics_unal\install\phantom_coppelia[0m
+[1.799s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[1.799s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[1.799s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '[WinError 1314] El cliente no dispone de un privilegio requerido: 'C:\\dev\\p-p_teleop_robotics_unal\\src\\joystick_ros2\\package.xml' -> 'C:\\dev\\p-p_teleop_robotics_unal\\install\\joystick_ros2\\share/joystick_ros2/package.xml''[0m
+[1.799s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[1.805s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify2': 'notify2' not found
+[1.805s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Not used on non-Linux systems
+[1.805s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.805s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'win32'

@@ -1,0 +1,211 @@
+CMake Deprecation Warning at CMakeLists.txt:4 (cmake_minimum_required):
+-- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.26100.
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+
+-- The C compiler identification is MSVC 19.42.34436.0
+-- The CXX compiler identification is MSVC 19.42.34436.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (C:/Users/yeira/miniforge3/envs/humble/Library/share/ament_cmake/cmake)
+-- Found Python3: C:/Users/yeira/miniforge3/python.exe (found version "3.12.8") found components: Interpreter
+-- Configuring done (8.8s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/dev/p-p_teleop_robotics_unal/build/dynamixel_sdk
+Versión de MSBuild 17.12.12+1cce77968 para .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/dev/p-p_teleop_robotics_unal/src/DynamixelSDK/dynamixel_sdk/CMakeLists.txt
+  packet_handler.cpp
+  protocol1_packet_handler.cpp
+  protocol2_packet_handler.cpp
+  group_sync_read.cpp
+  group_sync_write.cpp
+  group_bulk_read.cpp
+  group_bulk_write.cpp
+  group_fast_bulk_read.cpp
+  group_fast_sync_read.cpp
+  group_handler.cpp
+  port_handler.cpp
+  port_handler_windows.cpp
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_handler.h(46,26): warning C4251: "dynamixel::GroupHandler::id_list_": "std::vector<uint8_t,std::allocator<uint8_t>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupHandler" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_handler.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      vea la declaración de 'std::vector<uint8_t,std::allocator<uint8_t>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_handler.h(46,26): warning C4251: "dynamixel::GroupHandler::id_list_": "std::vector<uint8_t,std::allocator<uint8_t>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupHandler" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_sync_write.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      vea la declaración de 'std::vector<uint8_t,std::allocator<uint8_t>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_handler.h(46,26): warning C4251: "dynamixel::GroupHandler::id_list_": "std::vector<uint8_t,std::allocator<uint8_t>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupHandler" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_bulk_write.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      vea la declaración de 'std::vector<uint8_t,std::allocator<uint8_t>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_handler.h(47,34): warning C4251: "dynamixel::GroupHandler::data_list_": "std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupHandler" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_sync_write.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+      vea la declaración de 'std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_handler.h(46,26): warning C4251: "dynamixel::GroupHandler::id_list_": "std::vector<uint8_t,std::allocator<uint8_t>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupHandler" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_bulk_read.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      vea la declaración de 'std::vector<uint8_t,std::allocator<uint8_t>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_handler.h(46,26): warning C4251: "dynamixel::GroupHandler::id_list_": "std::vector<uint8_t,std::allocator<uint8_t>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupHandler" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_fast_bulk_read.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      vea la declaración de 'std::vector<uint8_t,std::allocator<uint8_t>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_handler.h(47,34): warning C4251: "dynamixel::GroupHandler::data_list_": "std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupHandler" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_handler.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+      vea la declaración de 'std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_handler.h(47,34): warning C4251: "dynamixel::GroupHandler::data_list_": "std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupHandler" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_bulk_write.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+      vea la declaración de 'std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_handler.h(46,26): warning C4251: "dynamixel::GroupHandler::id_list_": "std::vector<uint8_t,std::allocator<uint8_t>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupHandler" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_fast_sync_read.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      vea la declaración de 'std::vector<uint8_t,std::allocator<uint8_t>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_handler.h(47,34): warning C4251: "dynamixel::GroupHandler::data_list_": "std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupHandler" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_bulk_read.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+      vea la declaración de 'std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\src\dynamixel_sdk\protocol1_packet_handler.cpp(704,33): warning C4244: '=': conversión de 'uint16_t' a 'uint8_t'; posible pérdida de datos [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\src\dynamixel_sdk\protocol1_packet_handler.cpp(705,33): warning C4244: '=': conversión de 'uint16_t' a 'uint8_t'; posible pérdida de datos [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_handler.h(46,26): warning C4251: "dynamixel::GroupHandler::id_list_": "std::vector<uint8_t,std::allocator<uint8_t>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupHandler" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_sync_read.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(429,7):
+      vea la declaración de 'std::vector<uint8_t,std::allocator<uint8_t>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\src\dynamixel_sdk\group_sync_write.cpp(130,92): warning C4267: 'argumento': conversión de 'size_t' a 'uint16_t'; posible pérdida de datos [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_handler.h(47,34): warning C4251: "dynamixel::GroupHandler::data_list_": "std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupHandler" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_fast_bulk_read.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+      vea la declaración de 'std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_bulk_write.h(39,31): warning C4251: "dynamixel::GroupBulkWrite::address_list_": "std::map<uint8_t,uint16_t,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint16_t>>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupBulkWrite" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_bulk_write.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+      vea la declaración de 'std::map<uint8_t,uint16_t,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint16_t>>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_bulk_write.h(40,31): warning C4251: "dynamixel::GroupBulkWrite::length_list_": "std::map<uint8_t,uint16_t,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint16_t>>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupBulkWrite" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_bulk_write.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+      vea la declaración de 'std::map<uint8_t,uint16_t,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint16_t>>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_handler.h(47,34): warning C4251: "dynamixel::GroupHandler::data_list_": "std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupHandler" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_fast_sync_read.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+      vea la declaración de 'std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_bulk_read.h(39,33): warning C4251: "dynamixel::GroupBulkRead::address_list_": "std::map<uint8_t,uint16_t,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint16_t>>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupBulkRead" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_bulk_read.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+      vea la declaración de 'std::map<uint8_t,uint16_t,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint16_t>>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_sync_read.h(39,34): warning C4251: "dynamixel::GroupSyncRead::error_list_": "std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupSyncRead" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_fast_sync_read.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+      vea la declaración de 'std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_bulk_read.h(40,33): warning C4251: "dynamixel::GroupBulkRead::length_list_": "std::map<uint8_t,uint16_t,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint16_t>>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupBulkRead" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_bulk_read.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+      vea la declaración de 'std::map<uint8_t,uint16_t,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint16_t>>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_bulk_read.h(41,34): warning C4251: "dynamixel::GroupBulkRead::error_list_": "std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupBulkRead" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_bulk_read.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+      vea la declaración de 'std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\src\dynamixel_sdk\group_fast_sync_read.cpp(62,15): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_handler.h(47,34): warning C4251: "dynamixel::GroupHandler::data_list_": "std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupHandler" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_sync_read.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+      vea la declaración de 'std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_bulk_read.h(39,33): warning C4251: "dynamixel::GroupBulkRead::address_list_": "std::map<uint8_t,uint16_t,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint16_t>>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupBulkRead" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_fast_bulk_read.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+      vea la declaración de 'std::map<uint8_t,uint16_t,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint16_t>>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_bulk_read.h(40,33): warning C4251: "dynamixel::GroupBulkRead::length_list_": "std::map<uint8_t,uint16_t,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint16_t>>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupBulkRead" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_fast_bulk_read.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+      vea la declaración de 'std::map<uint8_t,uint16_t,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint16_t>>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_bulk_read.h(41,34): warning C4251: "dynamixel::GroupBulkRead::error_list_": "std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupBulkRead" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_fast_bulk_read.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+      vea la declaración de 'std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\include\dynamixel_sdk\group_sync_read.h(39,34): warning C4251: "dynamixel::GroupSyncRead::error_list_": "std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>" debe tener una interfaz DLL para que la usen los clientes de "dynamixel::GroupSyncRead" [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+  (compilando archivo de origen "../../src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_sync_read.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\map(72,7):
+      vea la declaración de 'std::map<uint8_t,uint8_t *,std::less<uint8_t>,std::allocator<std::pair<const uint8_t,uint8_t *>>>'
+  
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\src\dynamixel_sdk\group_fast_bulk_read.cpp(74,63): warning C4267: 'argumento': conversión de 'size_t' a 'uint16_t'; posible pérdida de datos [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\src\dynamixel_sdk\group_fast_bulk_read.cpp(84,15): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\src\dynamixel_sdk\group_bulk_read.cpp(144,59): warning C4267: 'argumento': conversión de 'size_t' a 'uint16_t'; posible pérdida de datos [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\src\dynamixel_sdk\group_bulk_read.cpp(148,59): warning C4267: 'argumento': conversión de 'size_t' a 'uint16_t'; posible pérdida de datos [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\src\dynamixel_sdk\group_bulk_read.cpp(154,22): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk\src\dynamixel_sdk\group_sync_read.cpp(128,22): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\dynamixel_sdk.vcxproj]
+     Creando biblioteca C:/dev/p-p_teleop_robotics_unal/build/dynamixel_sdk/Release/dynamixel_sdk.lib y objeto C:/dev/p-p_teleop_robotics_unal/build/dynamixel_sdk/Release/dynamixel_sdk.exp
+  dynamixel_sdk.vcxproj -> C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\Release\dynamixel_sdk.dll
+  Building Custom Rule C:/dev/p-p_teleop_robotics_unal/src/DynamixelSDK/dynamixel_sdk/CMakeLists.txt
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include/
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/lib/dynamixel_sdk.lib
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/bin/dynamixel_sdk.dll
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.bat
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.bat
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bat
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/package.xml

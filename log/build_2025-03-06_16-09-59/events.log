@@ -1,0 +1,38 @@
+[0.000000] (-) TimerEvent: {}
+[0.000000] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000000] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000000] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000000] (-) JobUnselected: {'identifier': 'phantom_control'}
+[0.000000] (-) JobUnselected: {'identifier': 'phantom_coppelia'}
+[0.000000] (-) JobUnselected: {'identifier': 'phantom_description'}
+[0.000000] (-) JobUnselected: {'identifier': 'phantom_vision'}
+[0.000000] (move_from_keys) JobQueued: {'identifier': 'move_from_keys', 'dependencies': OrderedDict()}
+[0.000000] (move_from_keys) JobStarted: {'identifier': 'move_from_keys'}
+[0.110000] (-) TimerEvent: {}
+[0.219000] (-) TimerEvent: {}
+[0.328000] (-) TimerEvent: {}
+[0.438000] (-) TimerEvent: {}
+[0.547000] (-) TimerEvent: {}
+[0.657000] (-) TimerEvent: {}
+[0.766000] (-) TimerEvent: {}
+[0.875000] (-) TimerEvent: {}
+[0.985000] (-) TimerEvent: {}
+[1.094000] (-) TimerEvent: {}
+[1.203000] (-) TimerEvent: {}
+[1.313000] (-) TimerEvent: {}
+[1.422000] (-) TimerEvent: {}
+[1.532000] (-) TimerEvent: {}
+[1.641000] (-) TimerEvent: {}
+[1.750000] (-) TimerEvent: {}
+[1.860000] (-) TimerEvent: {}
+[1.969000] (-) TimerEvent: {}
+[2.078000] (-) TimerEvent: {}
+[2.188000] (-) TimerEvent: {}
+[2.297000] (-) TimerEvent: {}
+[2.407000] (-) TimerEvent: {}
+[2.516000] (-) TimerEvent: {}
+[2.625000] (-) TimerEvent: {}
+[2.735000] (-) TimerEvent: {}
+[2.797000] (move_from_keys) StderrLine: {'line': b'Traceback (most recent call last):\n  File "C:\\Users\\yeira\\miniforge3\\envs\\humble\\Lib\\site-packages\\colcon_core\\executor\\__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "C:\\Users\\yeira\\miniforge3\\envs\\humble\\Lib\\site-packages\\colcon_core\\task\\__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "C:\\Users\\yeira\\miniforge3\\envs\\humble\\Lib\\site-packages\\colcon_core\\task\\python\\build.py", line 143, in build\n    temp_symlinks = self._symlinks_in_build(args, setup_py_data)\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "C:\\Users\\yeira\\miniforge3\\envs\\humble\\Lib\\site-packages\\colcon_core\\task\\python\\build.py", line 358, in _symlinks_in_build\n    os.symlink(src, dst)\nOSError: [WinError 1314] El cliente no dispone de un privilegio requerido: \'C:\\\\dev\\\\p-p_teleop_robotics_unal\\\\src\\\\move_from_keys\\\\setup.py\' -> \'C:\\\\dev\\\\p-p_teleop_robotics_unal\\\\build\\\\move_from_keys\\\\setup.py\'\n'}
+[2.797000] (move_from_keys) JobEnded: {'identifier': 'move_from_keys', 'rc': 1}
+[2.797000] (-) EventReactorShutdown: {}

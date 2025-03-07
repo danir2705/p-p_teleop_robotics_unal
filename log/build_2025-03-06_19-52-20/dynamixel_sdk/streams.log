@@ -1,0 +1,42 @@
+[0.203s] Invoking command in 'C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk': CL=/MP CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;C:\dev\p-p_teleop_robotics_unal\install\joy_controller;C:\dev\p-p_teleop_robotics_unal\install\joystick_ros2;C:\Users\yeira\miniforge3\envs\humble\Library CONDA_PROMPT_MODIFIER=(humble) C:\Users\yeira\miniforge3\envs\humble\Library\bin\cmake.EXE --build C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk --config Release
+[1.437s] Versión de MSBuild 17.12.12+1cce77968 para .NET Framework
+[1.437s] 
+[1.453s]   dynamixel_sdk.vcxproj -> C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk\Release\dynamixel_sdk.dll
+[1.453s] Invoked command in 'C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk' returned '0': CL=/MP CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;C:\dev\p-p_teleop_robotics_unal\install\joy_controller;C:\dev\p-p_teleop_robotics_unal\install\joystick_ros2;C:\Users\yeira\miniforge3\envs\humble\Library CONDA_PROMPT_MODIFIER=(humble) C:\Users\yeira\miniforge3\envs\humble\Library\bin\cmake.EXE --build C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk --config Release
+[1.484s] Invoking command in 'C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk': CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;C:\dev\p-p_teleop_robotics_unal\install\joy_controller;C:\dev\p-p_teleop_robotics_unal\install\joystick_ros2;C:\Users\yeira\miniforge3\envs\humble\Library CONDA_PROMPT_MODIFIER=(humble) C:\Users\yeira\miniforge3\envs\humble\Library\bin\cmake.EXE --install C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk --config Release
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include/
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_bulk_read.h
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/group_fast_sync_read.h
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/group_handler.h
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/lib/dynamixel_sdk.lib
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/bin/dynamixel_sdk.dll
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[1.578s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.bat
+[1.594s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[1.594s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.bat
+[1.594s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[1.594s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bat
+[1.594s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[1.594s] -- Installing: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[1.594s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[1.594s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.594s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[1.594s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[1.594s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[1.594s] -- Up-to-date: C:/dev/p-p_teleop_robotics_unal/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[1.625s] Invoked command in 'C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;C:\dev\p-p_teleop_robotics_unal\install\joy_controller;C:\dev\p-p_teleop_robotics_unal\install\joystick_ros2;C:\Users\yeira\miniforge3\envs\humble\Library CONDA_PROMPT_MODIFIER=(humble) C:\Users\yeira\miniforge3\envs\humble\Library\bin\cmake.EXE --install C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk --config Release

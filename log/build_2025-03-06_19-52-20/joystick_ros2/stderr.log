@@ -1,0 +1,45 @@
+C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\setuptools\dist.py:493: SetuptoolsDeprecationWarning: Invalid dash-separated options
+!!
+
+        ********************************************************************************
+        Usage of dash-separated 'script-dir' will not be supported in future
+        versions. Please use the underscore name 'script_dir' instead.
+
+        This deprecation is overdue, please update your project and remove deprecated
+        calls to avoid build errors in the future.
+
+        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+        ********************************************************************************
+
+!!
+  opt = self.warn_dash_deprecation(opt, section)
+Traceback (most recent call last):
+  File "C:\dev\p-p_teleop_robotics_unal\src\joystick_ros2\setup.py", line 5, in <module>
+    setup(
+  File "C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\setuptools\__init__.py", line 117, in setup
+    return distutils.core.setup(**attrs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\setuptools\_distutils\core.py", line 148, in setup
+    _setup_distribution = dist = klass(attrs)
+                                 ^^^^^^^^^^^^
+  File "C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\setuptools\dist.py", line 313, in __init__
+    for ep in metadata.entry_points(group='distutils.setup_keywords'):
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yeira\miniforge3\envs\humble\Lib\importlib\metadata\__init__.py", line 1041, in entry_points
+    return SelectableGroups.load(eps).select(**params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yeira\miniforge3\envs\humble\Lib\importlib\metadata\__init__.py", line 476, in load
+    ordered = sorted(eps, key=by_group)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\yeira\miniforge3\envs\humble\Lib\importlib\metadata\__init__.py", line 1038, in <genexpr>
+    eps = itertools.chain.from_iterable(
+                                       ^
+  File "C:\Users\yeira\miniforge3\envs\humble\Lib\importlib\metadata\_itertools.py", line 16, in unique_everseen
+    k = key(element)
+        ^^^^^^^^^^^^
+  File "C:\Users\yeira\miniforge3\envs\humble\Lib\importlib\metadata\__init__.py", line 952, in _normalized_name
+    stem = os.path.basename(str(self._path))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen ntpath>", line 244, in basename
+  File "<frozen ntpath>", line 218, in split
+KeyboardInterrupt

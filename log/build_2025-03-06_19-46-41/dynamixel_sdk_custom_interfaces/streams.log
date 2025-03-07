@@ -1,0 +1,80 @@
+[0.906s] Invoking command in 'C:\dev\p-p_teleop_robotics_unal\build\dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=%CMAKE_PREFIX_PATH%;C:\dev\p-p_teleop_robotics_unal\install\joystick_ros2;C:\Users\yeira\miniforge3\envs\humble\Library CONDA_PROMPT_MODIFIER=(humble) C:\Users\yeira\miniforge3\envs\humble\Library\bin\cmake.EXE C:\dev\p-p_teleop_robotics_unal\src\DynamixelSDK\dynamixel_sdk_custom_interfaces -DCMAKE_INSTALL_PREFIX=C:\dev\p-p_teleop_robotics_unal\install\dynamixel_sdk_custom_interfaces -G Visual Studio 17 2022
+[1.422s] CMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.422s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[1.422s]   CMake.
+[1.422s] 
+[1.422s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[1.422s]   to tell CMake that the project requires at least <min> but has been updated
+[1.422s]   to work with policies introduced by <max> or earlier.
+[1.422s] 
+[1.422s] 
+[1.422s] -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.26100.
+[2.610s] -- The C compiler identification is MSVC 19.42.34436.0
+[3.735s] -- The CXX compiler identification is MSVC 19.42.34436.0
+[3.766s] -- Detecting C compiler ABI info
+[4.828s] -- Detecting C compiler ABI info - done
+[4.860s] -- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe - skipped
+[4.860s] -- Detecting C compile features
+[4.860s] -- Detecting C compile features - done
+[4.875s] -- Detecting CXX compiler ABI info
+[5.844s] -- Detecting CXX compiler ABI info - done
+[5.875s] -- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe - skipped
+[5.875s] -- Detecting CXX compile features
+[5.875s] -- Detecting CXX compile features - done
+[5.891s] -- Found ament_cmake: 1.3.11 (C:/Users/yeira/miniforge3/envs/humble/Library/share/ament_cmake/cmake)
+[8.375s] -- Found Python3: C:/Users/yeira/miniforge3/python.exe (found version "3.12.8") found components: Interpreter
+[8.688s] -- Found builtin_interfaces: 1.2.1 (C:/Users/yeira/miniforge3/envs/humble/Library/share/builtin_interfaces/cmake)
+[8.813s] -- Found rosidl_generator_c: 3.1.6 (C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_generator_c/cmake)
+[8.828s] -- Found rosidl_adapter: 3.1.6 (C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_adapter/cmake)
+[8.860s] -- Found rosidl_generator_cpp: 3.1.6 (C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_generator_cpp/cmake)
+[8.906s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.985s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.047s] -- Found rosidl_default_generators: 1.2.0 (C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_default_generators/cmake)
+[10.094s] -- Found ament_cmake_ros: 0.10.0 (C:/Users/yeira/miniforge3/envs/humble/Library/share/ament_cmake_ros/cmake)
+[12.781s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.610s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.641s] -- Found python_cmake_module: 0.10.0 (C:/Users/yeira/miniforge3/envs/humble/Library/share/python_cmake_module/cmake)
+[13.641s] CMake Warning (dev) at C:/Users/yeira/miniforge3/envs/humble/Library/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[13.641s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[13.641s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[13.641s]   the cmake_policy command to set the policy and suppress this warning.
+[13.641s] 
+[13.641s] Call Stack (most recent call first):
+[13.641s]   C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:21 (find_package)
+[13.641s]   C:/Users/yeira/miniforge3/envs/humble/Library/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[13.641s]   C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[13.641s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[13.641s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[13.641s] 
+[13.719s] -- Found PythonInterp: C:/Users/yeira/miniforge3/envs/humble/python.exe (found suitable version "3.11.11", minimum required is "3.6")
+[13.719s] CMake Warning (dev) at C:/Users/yeira/miniforge3/envs/humble/Library/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[13.719s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[13.719s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[13.719s]   the cmake_policy command to set the policy and suppress this warning.
+[13.719s] 
+[13.719s] Call Stack (most recent call first):
+[13.719s]   C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:21 (find_package)
+[13.719s]   C:/Users/yeira/miniforge3/envs/humble/Library/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[13.719s]   C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[13.719s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[13.719s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[13.719s] 
+[13.750s] -- Found PythonLibs: C:/Users/yeira/miniforge3/envs/humble/libs/python311.lib (found suitable version "3.11.11", minimum required is "3.5")
+[13.750s] -- Using PYTHON_EXECUTABLE: C:/Users/yeira/miniforge3/envs/humble/python.exe
+[13.750s] -- Using PYTHON_INCLUDE_DIRS: C:/Users/yeira/miniforge3/envs/humble/include
+[13.750s] -- Using PYTHON_LIBRARIES: C:/Users/yeira/miniforge3/envs/humble/libs/python311.lib
+[13.813s] -- Found PythonExtra: .pyd
+[14.563s] CMake Error at C:/Users/yeira/miniforge3/envs/humble/Library/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake:233 (message):
+[14.563s]   Could NOT find Python3 (missing: Python3_NumPy_INCLUDE_DIRS NumPy) (found
+[14.563s]   version "3.12.8")
+[14.563s] Call Stack (most recent call first):
+[14.563s]   C:/Users/yeira/miniforge3/envs/humble/Library/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake:603 (_FPHSA_FAILURE_MESSAGE)
+[14.563s]   C:/Users/yeira/miniforge3/envs/humble/Library/share/cmake-3.31/Modules/FindPython/Support.cmake:4002 (find_package_handle_standard_args)
+[14.563s]   C:/Users/yeira/miniforge3/envs/humble/Library/share/cmake-3.31/Modules/FindPython3.cmake:602 (include)
+[14.563s]   C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:22 (find_package)
+[14.563s]   C:/Users/yeira/miniforge3/envs/humble/Library/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[14.563s]   C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[14.563s]   CMakeLists.txt:26 (rosidl_generate_interfaces)
+[14.563s] 
+[14.563s] 
+[14.563s] -- Configuring incomplete, errors occurred!

@@ -1,0 +1,10 @@
+^C:\DEV\P-P_TELEOP_ROBOTICS_UNAL\BUILD\MOVE_FROM_KEYS\CMAKEFILES\3DE7BE2DF72A477B45DD834C0CCB5426\GENERATE.STAMP.RULE
+setlocal
+C:\Users\yeira\miniforge3\envs\humble\Library\bin\cmake.exe -SC:/dev/p-p_teleop_robotics_unal/src/move_from_keys -BC:/dev/p-p_teleop_robotics_unal/build/move_from_keys --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/dev/p-p_teleop_robotics_unal/build/move_from_keys/move_from_keys.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

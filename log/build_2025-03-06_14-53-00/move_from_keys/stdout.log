@@ -1,0 +1,40 @@
+-- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.26100.
+-- The C compiler identification is MSVC 19.42.34436.0
+-- The CXX compiler identification is MSVC 19.42.34436.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (C:/Users/yeira/miniforge3/envs/humble/Library/share/ament_cmake/cmake)
+-- Found Python3: C:/Users/yeira/miniforge3/python.exe (found version "3.12.8") found components: Interpreter
+-- Found ament_lint_auto: 0.12.11 (C:/Users/yeira/miniforge3/envs/humble/Library/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (12.5s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/dev/p-p_teleop_robotics_unal/build/move_from_keys
+Versión de MSBuild 17.12.12+1cce77968 para .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/dev/p-p_teleop_robotics_unal/src/move_from_keys/CMakeLists.txt
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/move_from_keys/share/ament_index/resource_index/package_run_dependencies/move_from_keys
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/move_from_keys/share/ament_index/resource_index/parent_prefix_path/move_from_keys
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/move_from_keys/share/move_from_keys/environment/ament_prefix_path.bat
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/move_from_keys/share/move_from_keys/environment/ament_prefix_path.dsv
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/move_from_keys/share/move_from_keys/environment/path.bat
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/move_from_keys/share/move_from_keys/environment/path.dsv
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/move_from_keys/share/move_from_keys/local_setup.bat
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/move_from_keys/share/move_from_keys/local_setup.dsv
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/move_from_keys/share/move_from_keys/package.dsv
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/move_from_keys/share/ament_index/resource_index/packages/move_from_keys
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/move_from_keys/share/move_from_keys/cmake/move_from_keysConfig.cmake
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/move_from_keys/share/move_from_keys/cmake/move_from_keysConfig-version.cmake
+-- Installing: C:/dev/p-p_teleop_robotics_unal/install/move_from_keys/share/move_from_keys/package.xml

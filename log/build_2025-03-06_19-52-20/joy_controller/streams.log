@@ -1,0 +1,39 @@
+[2.609s] Invoking command in 'C:\dev\p-p_teleop_robotics_unal\src\joy_controller': CONDA_PROMPT_MODIFIER=(humble) PYTHONPATH=C:\dev\p-p_teleop_robotics_unal\build\joy_controller\prefix_override;C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\colcon_core\task\python\colcon_distutils_commands;C:\dev\p-p_teleop_robotics_unal\install\joy_controller\Lib\site-packages;%PYTHONPATH% C:\Users\yeira\miniforge3\envs\humble\python.exe -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ..\..\build\joy_controller build --build-base C:\dev\p-p_teleop_robotics_unal\build\joy_controller\build install --record C:\dev\p-p_teleop_robotics_unal\build\joy_controller\install.log --single-version-externally-managed install_data
+[2.922s] C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\setuptools\_distutils\dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[2.922s]   warnings.warn(msg)
+[2.953s] Traceback (most recent call last):
+[2.953s]   File "C:\dev\p-p_teleop_robotics_unal\src\joy_controller\setup.py", line 5, in <module>
+[2.953s]     setup(
+[2.953s]   File "C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\setuptools\__init__.py", line 117, in setup
+[2.953s]     return distutils.core.setup(**attrs)
+[2.953s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.953s]   File "C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\setuptools\_distutils\core.py", line 148, in setup
+[2.953s]     _setup_distribution = dist = klass(attrs)
+[2.953s]                                  ^^^^^^^^^^^^
+[2.953s]   File "C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\setuptools\dist.py", line 319, in __init__
+[2.953s]     _Distribution.__init__(self, dist_attrs)
+[2.953s]   File "C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\setuptools\_distutils\dist.py", line 290, in __init__
+[2.953s]     self.finalize_options()
+[2.953s]   File "C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\setuptools\dist.py", line 677, in finalize_options
+[2.953s]     defined = metadata.entry_points(group=group)
+[2.953s]               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.953s]   File "C:\Users\yeira\miniforge3\envs\humble\Lib\importlib\metadata\__init__.py", line 1041, in entry_points
+[2.953s]     return SelectableGroups.load(eps).select(**params)
+[2.953s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.953s]   File "C:\Users\yeira\miniforge3\envs\humble\Lib\importlib\metadata\__init__.py", line 476, in load
+[2.953s]     ordered = sorted(eps, key=by_group)
+[2.953s]               ^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.953s]   File "C:\Users\yeira\miniforge3\envs\humble\Lib\importlib\metadata\__init__.py", line 1039, in <genexpr>
+[2.953s]     dist.entry_points for dist in _unique(distributions())
+[2.953s]     ^^^^^^^^^^^^^^^^^
+[2.953s]   File "C:\Users\yeira\miniforge3\envs\humble\Lib\importlib\metadata\__init__.py", line 636, in entry_points
+[2.953s]     return EntryPoints._from_text_for(self.read_text('entry_points.txt'), self)
+[2.953s]                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.953s]   File "C:\Users\yeira\miniforge3\envs\humble\Lib\importlib\metadata\__init__.py", line 939, in read_text
+[2.969s]     return self._path.joinpath(filename).read_text(encoding='utf-8')
+[2.969s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.969s]   File "C:\Users\yeira\miniforge3\envs\humble\Lib\pathlib.py", line 1059, in read_text
+[2.969s]     return f.read()
+[2.969s]            ^^^^^^^^
+[2.969s]   File "<frozen codecs>", line 319, in decode
+[2.969s] KeyboardInterrupt

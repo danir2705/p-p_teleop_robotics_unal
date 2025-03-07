@@ -1,0 +1,37 @@
+[2.578s] Invoking command in 'C:\dev\p-p_teleop_robotics_unal\src\move_from_keys': CONDA_PROMPT_MODIFIER=(humble) PYTHONPATH=C:\dev\p-p_teleop_robotics_unal\build\move_from_keys\prefix_override;C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\colcon_core\task\python\colcon_distutils_commands;C:\dev\p-p_teleop_robotics_unal\install\move_from_keys\Lib\site-packages;%PYTHONPATH% C:\Users\yeira\miniforge3\envs\humble\python.exe -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ..\..\build\move_from_keys build --build-base C:\dev\p-p_teleop_robotics_unal\build\move_from_keys\build install --record C:\dev\p-p_teleop_robotics_unal\build\move_from_keys\install.log --single-version-externally-managed install_data
+[2.890s] C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\setuptools\_distutils\dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[2.890s]   warnings.warn(msg)
+[2.906s] Traceback (most recent call last):
+[2.906s]   File "C:\dev\p-p_teleop_robotics_unal\src\move_from_keys\setup.py", line 5, in <module>
+[2.906s]     setup(
+[2.906s]   File "C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\setuptools\__init__.py", line 117, in setup
+[2.906s]     return distutils.core.setup(**attrs)
+[2.906s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.906s]   File "C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\setuptools\_distutils\core.py", line 148, in setup
+[2.906s]     _setup_distribution = dist = klass(attrs)
+[2.906s]                                  ^^^^^^^^^^^^
+[2.906s]   File "C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\setuptools\dist.py", line 319, in __init__
+[2.906s]     _Distribution.__init__(self, dist_attrs)
+[2.906s]   File "C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\setuptools\_distutils\dist.py", line 290, in __init__
+[2.906s]     self.finalize_options()
+[2.906s]   File "C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\setuptools\dist.py", line 677, in finalize_options
+[2.906s]     defined = metadata.entry_points(group=group)
+[2.906s]               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.906s]   File "C:\Users\yeira\miniforge3\envs\humble\Lib\importlib\metadata\__init__.py", line 1041, in entry_points
+[2.906s]     return SelectableGroups.load(eps).select(**params)
+[2.906s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.906s]   File "C:\Users\yeira\miniforge3\envs\humble\Lib\importlib\metadata\__init__.py", line 476, in load
+[2.906s]     ordered = sorted(eps, key=by_group)
+[2.906s]               ^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.906s]   File "C:\Users\yeira\miniforge3\envs\humble\Lib\importlib\metadata\__init__.py", line 1038, in <genexpr>
+[2.906s]     eps = itertools.chain.from_iterable(
+[2.906s]                                        ^
+[2.906s]   File "C:\Users\yeira\miniforge3\envs\humble\Lib\importlib\metadata\_itertools.py", line 16, in unique_everseen
+[2.906s]     k = key(element)
+[2.906s]         ^^^^^^^^^^^^
+[2.906s]   File "C:\Users\yeira\miniforge3\envs\humble\Lib\importlib\metadata\__init__.py", line 952, in _normalized_name
+[2.922s]     stem = os.path.basename(str(self._path))
+[2.922s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2.922s]   File "<frozen ntpath>", line 244, in basename
+[2.922s]   File "<frozen ntpath>", line 218, in split
+[2.922s] KeyboardInterrupt

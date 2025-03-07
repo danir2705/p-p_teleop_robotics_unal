@@ -1,0 +1,44 @@
+[2.719s] Invoking command in 'C:\dev\p-p_teleop_robotics_unal\src\joystick_ros2': CONDA_PROMPT_MODIFIER=(humble) PYTHONPATH=C:\dev\p-p_teleop_robotics_unal\build\joystick_ros2\prefix_override;C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\colcon_core\task\python\colcon_distutils_commands;C:\dev\p-p_teleop_robotics_unal\install\joystick_ros2\Lib\site-packages;%PYTHONPATH% C:\Users\yeira\miniforge3\envs\humble\python.exe -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ..\..\build\joystick_ros2 build --build-base C:\dev\p-p_teleop_robotics_unal\build\joystick_ros2\build install --record C:\dev\p-p_teleop_robotics_unal\build\joystick_ros2\install.log --install-scripts $base/lib/joystick_ros2 --single-version-externally-managed install_data
+[3.078s] C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\setuptools\dist.py:493: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[3.078s] !!
+[3.078s] 
+[3.078s]         ********************************************************************************
+[3.078s]         Usage of dash-separated 'script-dir' will not be supported in future
+[3.094s]         versions. Please use the underscore name 'script_dir' instead.
+[3.094s] 
+[3.094s]         This deprecation is overdue, please update your project and remove deprecated
+[3.094s]         calls to avoid build errors in the future.
+[3.094s] 
+[3.094s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[3.094s]         ********************************************************************************
+[3.094s] 
+[3.094s] !!
+[3.094s]   opt = self.warn_dash_deprecation(opt, section)
+[3.125s] C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\setuptools\_distutils\dist.py:270: UserWarning: Unknown distribution option: 'test_suite'
+[3.125s]   warnings.warn(msg)
+[3.422s] running egg_info
+[3.469s] writing ..\..\build\joystick_ros2\joystick_ros2.egg-info\PKG-INFO
+[3.469s] writing dependency_links to ..\..\build\joystick_ros2\joystick_ros2.egg-info\dependency_links.txt
+[3.469s] writing entry points to ..\..\build\joystick_ros2\joystick_ros2.egg-info\entry_points.txt
+[3.469s] writing requirements to ..\..\build\joystick_ros2\joystick_ros2.egg-info\requires.txt
+[3.469s] writing top-level names to ..\..\build\joystick_ros2\joystick_ros2.egg-info\top_level.txt
+[3.563s] reading manifest file '..\..\build\joystick_ros2\joystick_ros2.egg-info\SOURCES.txt'
+[3.563s] adding license file 'LICENSE'
+[3.578s] writing manifest file '..\..\build\joystick_ros2\joystick_ros2.egg-info\SOURCES.txt'
+[3.578s] running build
+[3.578s] running build_py
+[3.578s] copying joystick_ros2.py -> C:\dev\p-p_teleop_robotics_unal\build\joystick_ros2\build\lib
+[3.578s] copying inputs.py -> C:\dev\p-p_teleop_robotics_unal\build\joystick_ros2\build\lib
+[3.578s] running install
+[3.578s] running install_lib
+[3.641s] running install_data
+[3.641s] copying resource\joystick_ros2 -> C:\dev\p-p_teleop_robotics_unal\install\joystick_ros2\share\ament_index\resource_index\packages
+[3.641s] copying package.xml -> C:\dev\p-p_teleop_robotics_unal\install\joystick_ros2\shared\joystick_ros2
+[3.641s] running install_egg_info
+[3.688s] removing 'C:\dev\p-p_teleop_robotics_unal\install\joystick_ros2\Lib\site-packages\joystick_ros2-0.0.1-py3.11.egg-info' (and everything under it)
+[3.703s] Copying ..\..\build\joystick_ros2\joystick_ros2.egg-info to C:\dev\p-p_teleop_robotics_unal\install\joystick_ros2\Lib\site-packages\joystick_ros2-0.0.1-py3.11.egg-info
+[3.703s] running install_scripts
+[4.094s] Installing joystick_ros2-script.py script to C:\dev\p-p_teleop_robotics_unal\install\joystick_ros2\lib\joystick_ros2
+[4.094s] Installing joystick_ros2.exe script to C:\dev\p-p_teleop_robotics_unal\install\joystick_ros2\lib\joystick_ros2
+[4.094s] writing list of installed files to 'C:\dev\p-p_teleop_robotics_unal\build\joystick_ros2\install.log'
+[4.156s] Invoked command in 'C:\dev\p-p_teleop_robotics_unal\src\joystick_ros2' returned '0': CONDA_PROMPT_MODIFIER=(humble) PYTHONPATH=C:\dev\p-p_teleop_robotics_unal\build\joystick_ros2\prefix_override;C:\Users\yeira\miniforge3\envs\humble\Lib\site-packages\colcon_core\task\python\colcon_distutils_commands;C:\dev\p-p_teleop_robotics_unal\install\joystick_ros2\Lib\site-packages;%PYTHONPATH% C:\Users\yeira\miniforge3\envs\humble\python.exe -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ..\..\build\joystick_ros2 build --build-base C:\dev\p-p_teleop_robotics_unal\build\joystick_ros2\build install --record C:\dev\p-p_teleop_robotics_unal\build\joystick_ros2\install.log --install-scripts $base/lib/joystick_ros2 --single-version-externally-managed install_data

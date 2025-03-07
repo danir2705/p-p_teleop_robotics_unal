@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\p-p_teleop_robotics_unal\build\phantom_coppelia\CMakeFiles\6da8e33352337fac9510578d341c30ef\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4BA02A0A-1600-39E3-BDAC-4ADE5FFFA1D9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

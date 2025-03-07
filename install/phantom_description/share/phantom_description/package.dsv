@@ -1,0 +1,6 @@
+source;share\phantom_description\hook\cmake_prefix_path.ps1
+source;share\phantom_description\hook\cmake_prefix_path.bat
+source;share\phantom_description\hook\cmake_prefix_path.dsv
+source;share/phantom_description/local_setup.bat
+source;share/phantom_description/local_setup.dsv
+source;share/phantom_description/local_setup.ps1

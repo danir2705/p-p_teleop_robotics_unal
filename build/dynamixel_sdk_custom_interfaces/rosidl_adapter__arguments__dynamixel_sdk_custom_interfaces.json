@@ -1,0 +1,7 @@
+{
+  "package_name": "dynamixel_sdk_custom_interfaces",
+  "non_idl_tuples": [
+    "C:/dev/p-p_teleop_robotics_unal/src/DynamixelSDK/dynamixel_sdk_custom_interfaces:msg/SetPosition.msg",
+    "C:/dev/p-p_teleop_robotics_unal/src/DynamixelSDK/dynamixel_sdk_custom_interfaces:srv/GetPosition.srv"
+  ]
+}

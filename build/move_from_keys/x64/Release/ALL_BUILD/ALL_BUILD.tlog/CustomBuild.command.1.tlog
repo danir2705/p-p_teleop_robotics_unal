@@ -1,0 +1,10 @@
+^C:\DEV\P-P_TELEOP_ROBOTICS_UNAL\SRC\MOVE_FROM_KEYS\CMAKELISTS.TXT
+setlocal
+C:\Users\yeira\miniforge3\envs\humble\Library\bin\cmake.exe -SC:/dev/p-p_teleop_robotics_unal/src/move_from_keys -BC:/dev/p-p_teleop_robotics_unal/build/move_from_keys --check-stamp-file C:/dev/p-p_teleop_robotics_unal/build/move_from_keys/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

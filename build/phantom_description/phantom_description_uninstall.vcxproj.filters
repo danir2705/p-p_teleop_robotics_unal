@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\p-p_teleop_robotics_unal\build\phantom_description\CMakeFiles\6d42e85a2c6f1f94aaef393fb9047660\phantom_description_uninstall.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\dev\p-p_teleop_robotics_unal\src\phantom_description\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\dev\p-p_teleop_robotics_unal\build\phantom_description\CMakeFiles\phantom_description_uninstall" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4DF84168-82BA-39C7-A60F-E978216FBC22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

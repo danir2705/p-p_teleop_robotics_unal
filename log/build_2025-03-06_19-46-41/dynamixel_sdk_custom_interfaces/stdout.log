@@ -1,0 +1,33 @@
+-- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.26100.
+-- The C compiler identification is MSVC 19.42.34436.0
+-- The CXX compiler identification is MSVC 19.42.34436.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (C:/Users/yeira/miniforge3/envs/humble/Library/share/ament_cmake/cmake)
+-- Found Python3: C:/Users/yeira/miniforge3/python.exe (found version "3.12.8") found components: Interpreter
+-- Found builtin_interfaces: 1.2.1 (C:/Users/yeira/miniforge3/envs/humble/Library/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 3.1.6 (C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rosidl_default_generators: 1.2.0 (C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (C:/Users/yeira/miniforge3/envs/humble/Library/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (C:/Users/yeira/miniforge3/envs/humble/Library/share/python_cmake_module/cmake)
+-- Found PythonInterp: C:/Users/yeira/miniforge3/envs/humble/python.exe (found suitable version "3.11.11", minimum required is "3.6")
+-- Found PythonLibs: C:/Users/yeira/miniforge3/envs/humble/libs/python311.lib (found suitable version "3.11.11", minimum required is "3.5")
+-- Using PYTHON_EXECUTABLE: C:/Users/yeira/miniforge3/envs/humble/python.exe
+-- Using PYTHON_INCLUDE_DIRS: C:/Users/yeira/miniforge3/envs/humble/include
+-- Using PYTHON_LIBRARIES: C:/Users/yeira/miniforge3/envs/humble/libs/python311.lib
+-- Found PythonExtra: .pyd
+-- Configuring incomplete, errors occurred!

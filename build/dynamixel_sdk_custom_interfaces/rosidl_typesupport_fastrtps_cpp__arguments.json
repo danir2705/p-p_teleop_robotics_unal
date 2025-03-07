@@ -1,0 +1,27 @@
+{
+  "package_name": "dynamixel_sdk_custom_interfaces",
+  "output_dir": "C:/dev/p-p_teleop_robotics_unal/build/dynamixel_sdk_custom_interfaces/rosidl_typesupport_fastrtps_cpp/dynamixel_sdk_custom_interfaces",
+  "template_dir": "C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "idl_tuples": [
+    "C:/dev/p-p_teleop_robotics_unal/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces:msg/SetPosition.idl",
+    "C:/dev/p-p_teleop_robotics_unal/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces:srv/GetPosition.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:C:/Users/yeira/miniforge3/envs/humble/Library/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:C:/Users/yeira/miniforge3/envs/humble/Library/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "C:/Users/yeira/miniforge3/envs/humble/Library/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "C:/Users/yeira/miniforge3/envs/humble/Lib/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "C:/Users/yeira/miniforge3/envs/humble/Library/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "C:/dev/p-p_teleop_robotics_unal/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces/msg/SetPosition.idl",
+    "C:/dev/p-p_teleop_robotics_unal/build/dynamixel_sdk_custom_interfaces/rosidl_adapter/dynamixel_sdk_custom_interfaces/srv/GetPosition.idl",
+    "C:/Users/yeira/miniforge3/envs/humble/Library/share/builtin_interfaces/msg/Duration.idl",
+    "C:/Users/yeira/miniforge3/envs/humble/Library/share/builtin_interfaces/msg/Time.idl"
+  ]
+}
