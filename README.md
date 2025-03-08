@@ -1,6 +1,6 @@
 # Pick and place using PS5 Controller for a Phantom X Pincher
 
-## Participants:
+## Participantes:
 - Jonathan Andrés Jimenez Trujillo
 - Daniel Mauricio Rivero Lozada
 - Yeira Liseth Rodriguez Rodriguez
