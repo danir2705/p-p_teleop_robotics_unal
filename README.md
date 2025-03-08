@@ -58,6 +58,52 @@ Se realizaron pruebas en MATLAB con vectores de prueba y en el nodo de ROS2. Amb
 
 ![image](https://github.com/user-attachments/assets/15f25ea2-f42a-4849-a6e5-9cdadc402d2d) ![image](https://github.com/user-attachments/assets/219fa95e-96cf-4b3f-aaec-4c8e0d0101f5)
 
+## Descripción de la solución planteada
+
+### Teleoperación del Robot Phantom X Pincher mediante Cinemática Diferencial
+
+Este repositorio contiene la implementación de un sistema de teleoperación para el robot **Phantom X Pincher**, basado en **ROS2**.
+
+#### Características del Proyecto
+
+- Implementación de la **cinemática directa**.
+- Cálculo simbólico del **jacobiano** en **Python**.
+- Uso de **ROS2** para la comunicación entre nodos.
+- Integración con un **joystick** para la teleoperación manual.
+- Validación en **MATLAB**.
+
+#### Arquitectura del Sistema
+
+El sistema se organiza en los siguientes nodos:
+
+- `phantom_control`: Controla las articulaciones del robot en base a comandos de movimiento.
+- `phantom_jacobian`: Calcula la cinemática diferencial y genera comandos articulares a partir de desplazamientos del efector.
+- `phantom_joy`: Traduce entradas de un joystick en desplazamientos en el espacio cartesiano.
+- `phantom_simulation`: Simula el comportamiento del robot en un entorno virtual.
+
+#### Instalación y Configuración
+
+##### Requisitos Previos
+
+- **ROS2 Foxy/Humble**
+- Python 3.8+
+
+##### Clonación y Configuración del Espacio de Trabajo
+
+```bash
+mkdir -p ~/ros2_ws/src
+cd ~/ros2_ws/src
+git clone https://github.com/danir2705/p-p_teleop_robotics_unal/tree/main/src
+cd ~/ros2_ws
+colcon build --symlink-install
+source install/setup.bash
+```
+#### Pruebas y Validación
+
+1. **Verificación en MATLAB**: Se usó el Robotics Toolbox de Peter Corke para comparar resultados.
+2. **Simulación en ROS2**: Se probó la teleoperación con modelos virtuales.
+3. **Pruebas en Hardware**: Se conectó al Phantom X Pincher y se validaron movimientos suaves y precisos.
+
 ## Diagrama de Flujo 
 
 <img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/images/flow_diagram.png" width="400">
