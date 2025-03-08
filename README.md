@@ -46,7 +46,9 @@ source install/setup.bash
 ## Cinématica directa e inversa
 Para abordar la cinemática directa, se inicia con la toma de una imagen del robot Phantom Pincher en una posición en forma de "L", como se observa en la figura. Este enfoque se elige con el objetivo de simplificar los cálculos y el análisis de la cinemática directa. A continuación, se procedió a dibujar los sistemas de coordenadas correspondientes a cada una de las articulaciones, siguiendo el marco de referencia establecido por Denavit-Hartenberg. Posteriormente, se construye la matriz DH para la cinemática directa, analizando cada uno de los eslabones y articulaciones, tal como se ilustra en las imágenes a continuación.
 
+<p align="center">
 <img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/PincherX-100_page-0001.jpg" width="400">
+</p>
 
 Con la matriz DH definida, se continúa el desarrollo en MATLAB utilizando el Toolbox de Peter Corke. Este se emplea para crear el modelo del robot Pincher con la matriz de cinemática directa y para generar los enlaces (links). Gracias a este mismo Toolbox, es posible calcular la matriz que relaciona la base con la primera articulación. Luego, se obtiene la matriz que vincula la primera articulación con la segunda. Al multiplicar las matrices 𝐴01 y 𝐴12, se obtiene 𝐴02, y así sucesivamente, hasta llegar al TCP. Este proceso será útil en etapas posteriores para el cálculo del Jacobiano, que será fundamental para la manipulación de las articulaciones del robot.
 
@@ -63,7 +65,9 @@ Nota: Los valores de \( \theta \) son variables, mientras que los desplazamiento
 
 El gráfico del robot generado permite confirmar que el modelo está correctamente definido y coincide con la imagen obtenida previamente.
 
+<p align="center">
 <img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/robot.jpg" width="400">
+</p>
 
 En cuanto a la cinemática inversa, se optó por no realizar el cálculo, ya que no se utilizará esta técnica en la implementación del proyecto. La estrategia elegida para la manipulación del efector final se basa en movimientos lineales en los que se considera que el desplazamiento en 𝑥,𝑦 y 𝑧, es un Δ𝑥. Al operar este desplazamiento con el Jacobiano, se puede obtener un vector Δ𝑞, que corresponde a los cambios que deben realizar las articulaciones para cumplir con los desplazamientos solicitados. Este enfoque se considera más sencillo, eficiente y directo, y es la solución adoptada para abordar el problema de manera efectiva.
 
@@ -104,7 +108,9 @@ Se realizaron pruebas en MATLAB con vectores de prueba y en el nodo de ROS2. Amb
 
 ## Diagrama de Flujo 
 
+<p align="center">
 <img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/flow_diagram.png" width="400">
+</p>
 
 El diagrama de flujo, describe de forma integrada el proceso de teleoperación y simulación del robot Phantom X Pincher. El sistema se inicia mediante un archivo de lanzamiento (launch file) que pone en marcha el nodo maestro y todos los componentes esenciales, tales como el nodo de hardware que gestiona el robot, el nodo que se suscribe a los estados articulares (a través del tópico /joint_states) y los nodos o servicios de cinemática inversa, los cuales son responsables de traducir las posiciones deseadas en ángulos articulares adecuados. En este punto, se verifica la conexión y la operatividad del robot; si se detecta alguna anomalía, se reintenta la conexión o se detiene la ejecución del sistema.
 
@@ -114,7 +120,9 @@ El flujo culmina con la integración de la simulación en MATLAB, donde un nodo 
 
 ##  Nodos y tópicos
 
+<p align="center">
 <img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/Nodos.jpeg" width="400">
+</p>
 
 El sistema se organiza en los siguientes nodos:
 
@@ -134,7 +142,9 @@ El sistema se organiza en los siguientes nodos:
 
 Se divide en dos archivos principales: PS4Controller.py, que maneja la lectura de los datos del joystick, y joy_tracker.py, que actúa como un nodo de ROS2 publicando la información procesada en tópicos específicos. Para el primero se usa una función que escuha los eventors del joystick y actualiza los valores según el botón (en un boleano) o devuelve un vector con los valores de los ejes. Por otro lado, joy_tracker.py define el nodo PhantomJoy, que se encarga de recibir la información del joystick y publicarla en ROS2. Este nodo tiene dos publicadores: uno para enviar velocidades como un mensaje Twist en el tópico joy_vel y otro para enviar el modo de operación (manual o automático) como un mensaje Bool en el tópico operation_mode.
 
+<p align="center">
 <img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/ps4_photo.jpg" width="400">
+</p>
 
 La obtención de los valores de los ejes y la actualización de los datos de control se actualiza continuamente, así como se verifica el modo de operación actual ya sea con los botones X o Círculo. 
 
@@ -142,7 +152,9 @@ La obtención de los valores de los ejes y la actualización de los datos de con
 
 Este archivo de lanzamiento en ROS2 automatiza la apertura de CoppeliaSim con una escena predefinida. Para ello, localiza el paquete donde se encuentra la escena y ejecuta el simulador como un proceso externo. Esto permite que CoppeliaSim se inicie junto con otros nodos de ROS2, facilitando la integración y automatizando el flujo de trabajo sin necesidad de abrir el simulador manualmente.
 
+<p align="center">
 <img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/sim_coppelia.png" width="400">
+</p>
 
 ## Trayectoria y rutina
 
