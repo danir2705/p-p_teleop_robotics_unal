@@ -18,6 +18,7 @@ Este repositorio contiene la implementación de un sistema de teleoperación par
 - Integración con un **joystick** para la teleoperación manual.
 - Validación en **MATLAB**.
 
+
 #### Instalación y Configuración
 
 ##### Requisitos Previos
@@ -89,6 +90,11 @@ Este nodo tiene dos roles:
   
 ### Resultados y Pruebas
 Se realizaron pruebas en MATLAB con vectores de prueba y en el nodo de ROS2. Ambos métodos generaron los mismos resultados, lo que confirmó la correcta ejecución de los cálculos y el tratamiento adecuado de los vectores. Este enfoque asegura que el cálculo del jacobiano y el ajuste de las articulaciones se realicen de manera precisa y eficiente durante la operación del robot.
+
+
+
+https://github.com/user-attachments/assets/239e5915-81ff-4cf4-8658-5d4d0e4ac135
+
 
 ![image](https://github.com/user-attachments/assets/15f25ea2-f42a-4849-a6e5-9cdadc402d2d) ![image](https://github.com/user-attachments/assets/219fa95e-96cf-4b3f-aaec-4c8e0d0101f5)
 
