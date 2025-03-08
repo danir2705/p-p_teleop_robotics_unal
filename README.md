@@ -106,7 +106,7 @@ El flujo culmina con la integración de la simulación en MATLAB, donde un nodo 
 
 ##  Nodos y tópicos
 
-<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/Nodos.jpg" width="400">
+<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/Nodos.jpeg" width="400">
 
 El sistema se organiza en los siguientes nodos:
 
@@ -134,7 +134,7 @@ La obtención de los valores de los ejes y la actualización de los datos de con
 
 Este archivo de lanzamiento en ROS2 automatiza la apertura de CoppeliaSim con una escena predefinida. Para ello, localiza el paquete donde se encuentra la escena y ejecuta el simulador como un proceso externo. Esto permite que CoppeliaSim se inicie junto con otros nodos de ROS2, facilitando la integración y automatizando el flujo de trabajo sin necesidad de abrir el simulador manualmente.
 
-<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/sim_coppelia.jpg" width="400">
+<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/sim_coppelia.png" width="400">
 
 ## Trayectoria y rutina
 
