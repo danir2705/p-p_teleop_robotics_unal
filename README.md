@@ -61,7 +61,7 @@ Esta tabla representa los parámetros Denavit-Hartenberg (DH) del robot.
 | \( $$q_3$$ \) | Variable | 0 | 100 | 0 | -1.23 |
 | \( $$q_4$$ \) | Variable | 0 | 86.05 | 0 | 0 |
 
-Nota: Los valores de \( \theta \) son variables, mientras que los desplazamientos y longitudes de enlace están dadas en milímetros.
+Nota: Los valores de \( $$\theta$$ \) son variables, mientras que los desplazamientos y longitudes de enlace están dadas en milímetros.
 
 El gráfico del robot generado permite confirmar que el modelo está correctamente definido y coincide con la imagen obtenida previamente.
 
