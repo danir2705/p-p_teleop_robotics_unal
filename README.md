@@ -96,7 +96,7 @@ Se realizaron pruebas en MATLAB con vectores de prueba y en el nodo de ROS2. Amb
 
 ## Diagrama de Flujo 
 
-<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figuress/flow_diagram.png" width="400">
+<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/flow_diagram.png" width="400">
 
 El diagrama de flujo, describe de forma integrada el proceso de teleoperación y simulación del robot Phantom X Pincher. El sistema se inicia mediante un archivo de lanzamiento (launch file) que pone en marcha el nodo maestro y todos los componentes esenciales, tales como el nodo de hardware que gestiona el robot, el nodo que se suscribe a los estados articulares (a través del tópico /joint_states) y los nodos o servicios de cinemática inversa, los cuales son responsables de traducir las posiciones deseadas en ángulos articulares adecuados. En este punto, se verifica la conexión y la operatividad del robot; si se detecta alguna anomalía, se reintenta la conexión o se detiene la ejecución del sistema.
 
@@ -106,7 +106,7 @@ El flujo culmina con la integración de la simulación en MATLAB, donde un nodo 
 
 ##  Nodos y tópicos
 
-<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/Nodos.jpg" width="400">
+<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/Nodos.jpeg" width="400">
 
 El sistema se organiza en los siguientes nodos:
 
@@ -134,7 +134,7 @@ La obtención de los valores de los ejes y la actualización de los datos de con
 
 Este archivo de lanzamiento en ROS2 automatiza la apertura de CoppeliaSim con una escena predefinida. Para ello, localiza el paquete donde se encuentra la escena y ejecuta el simulador como un proceso externo. Esto permite que CoppeliaSim se inicie junto con otros nodos de ROS2, facilitando la integración y automatizando el flujo de trabajo sin necesidad de abrir el simulador manualmente.
 
-<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/sim_coppelia.jpg" width="400">
+<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/sim_coppelia.png" width="400">
 
 ## Trayectoria y rutina
 
