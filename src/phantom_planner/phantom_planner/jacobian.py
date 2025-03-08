@@ -3,9 +3,9 @@ import numpy as np
 
 from rclpy.node import Node
 
-from std_msgs.msg import String, Float64MultiArray
 from sensor_msgs.msg import JointState
 from geometry_msgs.msg import Twist
+from std_msgs.msg import Float64MultiArray, Bool
 
 
 
@@ -15,7 +15,13 @@ class JacobianOperator(Node):
         super().__init__('jacobian_translator')
 
         self.publisher_ = self.create_publisher(JointState, 'coppelia/joint_commands', 10)
+        self.publisher_cmds = self.create_publisher(Float64MultiArray, '/position_controller/commands', 10)
         self.subscriber = self.create_subscription(Twist, 'joy_vel', self.vel_cmd_callback, 10)
+
+        self.subscriber = self.create_subscription(Bool, 'operation_mode', self.operation_mode_callback, 10)
+
+
+        self.enable_manual = True
 
     def dh_transform(self, theta, d, a, alpha):
         return np.array([
@@ -106,6 +112,9 @@ class JacobianOperator(Node):
         
         return J_pseudo_inv
 
+    def operation_mode_callback(self, msg: Bool): 
+        self.enable_manual = msg.data
+
     def vel_cmd_callback(self, msg: Twist): 
         dx = msg.linear.x 
         dy = msg.linear.y 
@@ -124,12 +133,21 @@ class JacobianOperator(Node):
 
         VEL_FACTOR = 2
         dq_cmd.name = ['waist', 'shoulder', 'elbow', 'wrist_angle']
-        dq_cmd.position = dq[0].tolist() * VEL_FACTOR 
+        dq_cmd.position = dq[0].tolist() 
         dq_cmd.velocity = [0.0, 0.0, 0.0, 0.0]
         dq_cmd.effort = [0.0, 0.0, 0.0, 0.0]
 
+        dq_multiarray = Float64MultiArray() 
+
+        dq_multiarray.data = [0.1 * e for e in dq_cmd.position ]
+
 
         self.publisher_.publish(dq_cmd)
+
+        if not self.enable_manual: 
+            self.publisher_cmds.publish(dq_multiarray)
+        elif sum(dq_multiarray.data) == 0.0 :
+            self.get_logger().info("Auto mode. Activate manual mode to move the pincher manually.")
 
 
 

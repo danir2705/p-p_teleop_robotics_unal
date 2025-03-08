@@ -20,6 +20,11 @@ def generate_launch_description():
         executable='jacobian'
     )
 
+    gui_node = Node(
+        package="phantom_planner",
+        executable="gui"
+    )
+
     coppelia =   IncludeLaunchDescription(
             PythonLaunchDescriptionSource([
                 PathJoinSubstitution([
@@ -44,5 +49,6 @@ def generate_launch_description():
         joy_node,
         jacobian_node, 
         coppelia, 
-        control
+        control,
+        gui_node
     ])

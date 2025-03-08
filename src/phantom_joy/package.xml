@@ -4,7 +4,7 @@
   <name>phantom_joy</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="">robotica</maintainer>
+  <maintainer email="a@gmail.com">robotica</maintainer>
   <license>TODO: License declaration</license>
 
   <depend>std_msgs</depend>

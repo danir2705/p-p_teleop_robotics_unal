@@ -6,7 +6,7 @@ import pygame
 
 from .PS4Controller import PS4Controller
 import rclpy.logging
-from std_msgs.msg import Float64, Float32MultiArray, Bool
+from std_msgs.msg import Bool
 from geometry_msgs.msg import Twist
 from rclpy.node import Node
 

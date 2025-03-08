@@ -410,7 +410,7 @@ hardware_interface::return_type PhantomPincherSystem::write(const rclcpp::Time& 
       packetHandler->write4ByteTxRx(
         portHandler,
         (uint8_t) i + 1,
-        ADDR_POSITION_GOAL_,
+        ADDR_VELOLICTY_GOAL_,
         joint_commands_[POSITION_INTERFACE_INDEX][i] * (180.0f / 3.14f) * 1.0f / 0.087891f,
         &dxl_error
       );

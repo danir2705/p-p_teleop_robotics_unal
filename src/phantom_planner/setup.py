@@ -21,7 +21,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'jacobian = phantom_planner.jacobian:main'
+            'jacobian = phantom_planner.jacobian:main',
+            'gui = phantom_planner.gui:main'
         ],
     },
 )
