@@ -58,6 +58,16 @@ Se realizaron pruebas en MATLAB con vectores de prueba y en el nodo de ROS2. Amb
 
 ![image](https://github.com/user-attachments/assets/15f25ea2-f42a-4849-a6e5-9cdadc402d2d) ![image](https://github.com/user-attachments/assets/219fa95e-96cf-4b3f-aaec-4c8e0d0101f5)
 
+## Diagrama de Flujo 
+
+<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/images/flow_diagram.png" width="400">
+
+El diagrama de flujo, describe de forma integrada el proceso de teleoperación y simulación del robot Phantom X Pincher. El sistema se inicia mediante un archivo de lanzamiento (launch file) que pone en marcha el nodo maestro y todos los componentes esenciales, tales como el nodo de hardware que gestiona el robot, el nodo que se suscribe a los estados articulares (a través del tópico /joint_states) y los nodos o servicios de cinemática inversa, los cuales son responsables de traducir las posiciones deseadas en ángulos articulares adecuados. En este punto, se verifica la conexión y la operatividad del robot; si se detecta alguna anomalía, se reintenta la conexión o se detiene la ejecución del sistema.
+
+Posteriormente, el flujo contempla la opción de seleccionar el modo de operación mediante la integración del joystick, administrado por un nodo que publica en el tópico /joy. Si se opta por el control manual, los datos del joystick se procesan para generar comandos de velocidad o de posición, que posteriormente se convierten en ángulos articulares mediante un nuevo cálculo de cinemática inversa. Alternativamente, en el modo automático se emplean rutinas preprogramadas que definen trayectorias específicas para la ejecución de tareas, eliminando la necesidad de entrada manual. Los comandos resultantes, ya sea derivados de la entrada del joystick o de las trayectorias automáticas, se publican en tópicos correspondientes (por ejemplo, /cmd_vel o un tópico de comandos articulares) para controlar el movimiento del robot.
+
+El flujo culmina con la integración de la simulación en CoppeliaSim, donde un nodo puente o plugin se encarga de traducir los comandos recibidos a acciones en el entorno virtual, garantizando que la simulación refleje de manera precisa el comportamiento del robot. Este ciclo se repite de forma continua mientras el sistema esté en operación, permitiendo la actualización en tiempo real de los estados del robot y de la simulación, hasta que se emita una orden de parada o finalice la rutina programada. En conjunto, el diagrama de flujo representa un sistema de teleoperación robusto y dinámico, en el que la interconexión entre nodos y tópicos de ROS permite una comunicación fluida entre la interfaz de usuario, el cálculo de la cinemática y la ejecución en entornos tanto reales como simulados.
+
 ## Configuración Joystick --- Botones (Control)
 
 ## Visualización Coppelia
