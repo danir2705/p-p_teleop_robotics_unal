@@ -63,7 +63,7 @@ Nota: Los valores de \( \theta \) son variables, mientras que los desplazamiento
 
 El gráfico del robot generado permite confirmar que el modelo está correctamente definido y coincide con la imagen obtenida previamente.
 
-<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/PincherX-100_page-0001.jpg" width="400">
+<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/robot.jpg" width="400">
 
 En cuanto a la cinemática inversa, se optó por no realizar el cálculo, ya que no se utilizará esta técnica en la implementación del proyecto. La estrategia elegida para la manipulación del efector final se basa en movimientos lineales en los que se considera que el desplazamiento en 𝑥,𝑦 y 𝑧, es un Δ𝑥. Al operar este desplazamiento con el Jacobiano, se puede obtener un vector Δ𝑞, que corresponde a los cambios que deben realizar las articulaciones para cumplir con los desplazamientos solicitados. Este enfoque se considera más sencillo, eficiente y directo, y es la solución adoptada para abordar el problema de manera efectiva.
 
@@ -75,8 +75,6 @@ Método semi-manual:
    - Las primeras tres filas se calcularon utilizando el producto cruz de 𝑧𝑖−1 con la diferencia (𝑜𝑛−𝑜𝑖−1).
    - Las siguientes tres filas se construyeron tomando cada columna como 𝑧𝑖−1.
 Esto dio como resultado una matriz jacobiana geométrica completa de tamaño 6×4.
-
-![image](https://github.com/user-attachments/assets/213e8eac-2d07-4190-bf5a-cbb5abe1ea86) ![image](https://github.com/user-attachments/assets/9e1734e4-310e-454c-a727-11a9a73f5fa6)
 
 2. Método automático con Peter Corke Toolbox:
 La segunda forma de obtener la matriz jacobiana fue utilizando la función jacob0 del toolbox de Peter Corke en MATLAB 'J_g = (Pincher.jacob0(q))'. Se verificó que los resultados obtenidos con ambos métodos fueran consistentes, lo que validó la precisión de ambos enfoques.
