@@ -1,11 +1,47 @@
 # Pick and place using PS5 Controller for a Phantom X Pincher
+
 ## Participants:
 - Jonathan Andrés Jimenez Trujillo
 - Daniel Mauricio Rivero Lozada
 - Yeira Liseth Rodriguez Rodriguez
 - Daniel Felipe Valbuena Reyes
 
-# Pasos
+### Teleoperación del Robot Phantom X Pincher mediante Cinemática Diferencial
+
+Este repositorio contiene la implementación de un sistema de teleoperación para el robot **Phantom X Pincher**, basado en **ROS2**.
+
+#### Características del Proyecto
+
+- Implementación de la **cinemática directa**.
+- Cálculo simbólico del **jacobiano** en **Python**.
+- Uso de **ROS2** para la comunicación entre nodos.
+- Integración con un **joystick** para la teleoperación manual.
+- Validación en **MATLAB**.
+
+#### Instalación y Configuración
+
+##### Requisitos Previos
+
+- **ROS2 Foxy/Humble**
+- Python 3.8+
+
+##### Clonación y Configuración del Espacio de Trabajo
+
+```bash
+mkdir -p ~/ros2_ws/src
+cd ~/ros2_ws/src
+git clone https://github.com/danir2705/p-p_teleop_robotics_unal/tree/main/src
+cd ~/ros2_ws
+colcon build --symlink-install
+source install/setup.bash
+```
+#### Pruebas y Validación
+
+1. **Verificación en MATLAB**: Se usó el Robotics Toolbox de Peter Corke para comparar resultados.
+2. **Simulación en ROS2**: Se probó la teleoperación con modelos virtuales.
+3. **Pruebas en Hardware**: Se conectó al Phantom X Pincher y se validaron movimientos suaves y precisos.
+
+# Cálculos posición y orientación
 
 ## Cinématica directa e inversa
 Para abordar la cinemática directa, se inicia con la toma de una imagen del robot Phantom Pincher en una posición en forma de "L", como se observa en la figura. Este enfoque se elige con el objetivo de simplificar los cálculos y el análisis de la cinemática directa. A continuación, se procedió a dibujar los sistemas de coordenadas correspondientes a cada una de las articulaciones, siguiendo el marco de referencia establecido por Denavit-Hartenberg. Posteriormente, se construye la matriz DH para la cinemática directa, analizando cada uno de los eslabones y articulaciones, tal como se ilustra en las imágenes a continuación.
@@ -37,8 +73,6 @@ La segunda forma de obtener la matriz jacobiana fue utilizando la función jacob
 
 Aunque la función jacob0 proporcionó la matriz jacobiana, se decidió dejar la matriz expresada de manera simbólica para que pueda cambiar dinámicamente con respecto al vector 𝑞, que corresponde a la posición actual de las articulaciones del robot. Esto es crucial para la implementación, ya que en cada momento se reciben las posiciones actuales del robot y, por lo tanto, se recalcula el jacobiano en tiempo real.
 
-
-
 Para completar los cálculos, se necesitan dos vectores de entrada:
   - Un vector 𝑞 de tamaño 4×1, que representa los valores de las articulaciones del robot.
   - Un vector Δ𝑥 de tamaño 6×1, que representa los cambios en las coordenadas 𝑥, 𝑦 y 𝑧.
@@ -58,52 +92,6 @@ Se realizaron pruebas en MATLAB con vectores de prueba y en el nodo de ROS2. Amb
 
 ![image](https://github.com/user-attachments/assets/15f25ea2-f42a-4849-a6e5-9cdadc402d2d) ![image](https://github.com/user-attachments/assets/219fa95e-96cf-4b3f-aaec-4c8e0d0101f5)
 
-## Descripción de la solución planteada
-
-### Teleoperación del Robot Phantom X Pincher mediante Cinemática Diferencial
-
-Este repositorio contiene la implementación de un sistema de teleoperación para el robot **Phantom X Pincher**, basado en **ROS2**.
-
-#### Características del Proyecto
-
-- Implementación de la **cinemática directa**.
-- Cálculo simbólico del **jacobiano** en **Python**.
-- Uso de **ROS2** para la comunicación entre nodos.
-- Integración con un **joystick** para la teleoperación manual.
-- Validación en **MATLAB**.
-
-#### Arquitectura del Sistema
-
-El sistema se organiza en los siguientes nodos:
-
-- `phantom_control`: Controla las articulaciones del robot en base a comandos de movimiento.
-- `phantom_jacobian`: Calcula la cinemática diferencial y genera comandos articulares a partir de desplazamientos del efector.
-- `phantom_joy`: Traduce entradas de un joystick en desplazamientos en el espacio cartesiano.
-- `phantom_simulation`: Simula el comportamiento del robot en un entorno virtual.
-
-#### Instalación y Configuración
-
-##### Requisitos Previos
-
-- **ROS2 Foxy/Humble**
-- Python 3.8+
-
-##### Clonación y Configuración del Espacio de Trabajo
-
-```bash
-mkdir -p ~/ros2_ws/src
-cd ~/ros2_ws/src
-git clone https://github.com/danir2705/p-p_teleop_robotics_unal/tree/main/src
-cd ~/ros2_ws
-colcon build --symlink-install
-source install/setup.bash
-```
-#### Pruebas y Validación
-
-1. **Verificación en MATLAB**: Se usó el Robotics Toolbox de Peter Corke para comparar resultados.
-2. **Simulación en ROS2**: Se probó la teleoperación con modelos virtuales.
-3. **Pruebas en Hardware**: Se conectó al Phantom X Pincher y se validaron movimientos suaves y precisos.
-
 ## Diagrama de Flujo 
 
 <img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/entregables/flow_diagram.png" width="400">
@@ -113,6 +101,22 @@ El diagrama de flujo, describe de forma integrada el proceso de teleoperación y
 Posteriormente, el flujo contempla la opción de seleccionar el modo de operación mediante la integración del joystick, administrado por un nodo que publica en el tópico /joy. Si se opta por el control manual, los datos del joystick se procesan para generar comandos de velocidad o de posición, que posteriormente se convierten en ángulos articulares mediante un nuevo cálculo de cinemática inversa. Alternativamente, en el modo automático se emplean rutinas preprogramadas que definen trayectorias específicas para la ejecución de tareas, eliminando la necesidad de entrada manual. Los comandos resultantes, ya sea derivados de la entrada del joystick o de las trayectorias automáticas, se publican en tópicos correspondientes (por ejemplo, /cmd_vel o un tópico de comandos articulares) para controlar el movimiento del robot.
 
 El flujo culmina con la integración de la simulación en MATLAB, donde un nodo puente o plugin se encarga de traducir los comandos recibidos a acciones en el entorno virtual, garantizando que la simulación refleje de manera precisa el comportamiento del robot. Este ciclo se repite de forma continua mientras el sistema esté en operación, permitiendo la actualización en tiempo real de los estados del robot y de la simulación, hasta que se emita una orden de parada o finalice la rutina programada. En conjunto, el diagrama de flujo representa un sistema de teleoperación robusto y dinámico, en el que la interconexión entre nodos y tópicos de ROS permite una comunicación fluida entre la interfaz de usuario, el cálculo de la cinemática y la ejecución en entornos tanto reales como simulados.
+
+## Arquitectura del Sistema : Nodos y tópicos
+
+<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/entregables/Nodos.jpg" width="400">
+
+El sistema se organiza en los siguientes nodos:
+
+* 'phantom_joy': Captura la interacción del control de PS4, donde los sticks analógicos regulan la velocidad y los botones permiten cambiar el estado del sistema. Luego, envía esta información en forma de comandos de velocidad y modo de operación.
+
+* 'phantom_mode': Define el estado operativo del robot, determinando si se encuentra en modo manual o automático. También se encarga de enviar esta información a otros nodos.
+
+* 'phantom_diff': Calcula la velocidad necesaria para cada articulación del robot utilizando la matriz Jacobiana a partir de los comandos de velocidad enviados por el controlador.
+
+* 'phantom_control': Inicia los controladores de velocidad del Phantom Px100 a través de un script de lanzamiento (viz_launch.py). Este nodo es clave para la ejecución del movimiento del brazo.
+
+* 'phantom_mode (gemelo digital)': Representa la simulación del robot en un entorno virtual, permitiendo probar y visualizar el comportamiento del brazo antes de ejecutarlo físicamente.
 
 ## Configuración Joystick --- Botones (Control)
 
