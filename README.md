@@ -54,12 +54,14 @@ Con la matriz DH definida, se continúa el desarrollo en MATLAB utilizando el To
 
 Esta tabla representa los parámetros Denavit-Hartenberg (DH) del robot.
 
-| Junta | \( \theta \) (°) | \( d \) (mm) | \( a \) (mm) | \( \alpha \) (rad) | Offset |
+<p align="center">
+| Junta | \( $$\theta$$ \) (°) | \( d \) (mm) | \( a \) (mm) | \( $$\alpha$$ \) (rad) | Offset |
 |-------|------------|----------|--------|---------------|--------|
-| \( q_1 \) | Variable | 89.45 | 0 | \( \frac{\pi}{2} \) | 0 |
-| \( q_2 \) | Variable | 0 | 105.95 | 0 | 1.2341 |
-| \( q_3 \) | Variable | 0 | 100 | 0 | -1.23 |
-| \( q_4 \) | Variable | 0 | 86.05 | 0 | 0 |
+| \( $$q_1$$ \) | Variable | 89.45 | 0 | \( $$\frac{\pi}{2}$$ \) | 0 |
+| \( $$q_2$$ \) | Variable | 0 | 105.95 | 0 | 1.2341 |
+| \( $$q_3$$ \) | Variable | 0 | 100 | 0 | -1.23 |
+| \( $$q_4$$ \) | Variable | 0 | 86.05 | 0 | 0 |
+</p>
 
 Nota: Los valores de \( \theta \) son variables, mientras que los desplazamientos y longitudes de enlace están dadas en milímetros.
 
