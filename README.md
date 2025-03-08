@@ -116,7 +116,16 @@ El flujo culmina con la integración de la simulación en MATLAB, donde un nodo 
 
 ## Configuración Joystick --- Botones (Control)
 
+Se divide en dos archivos principales: PS4Controller.py, que maneja la lectura de los datos del joystick, y joy_tracker.py, que actúa como un nodo de ROS2 publicando la información procesada en tópicos específicos. Para el primero se usa una función que escuha los eventors del joystick y actualiza los valores según el botón (en un boleano) o devuelve un vector con los valores de los ejes. Por otro lado, joy_tracker.py define el nodo PhantomJoy, que se encarga de recibir la información del joystick y publicarla en ROS2. Este nodo tiene dos publicadores: uno para enviar velocidades como un mensaje Twist en el tópico joy_vel y otro para enviar el modo de operación (manual o automático) como un mensaje Bool en el tópico operation_mode.
+
+<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/entregables/ps4_photo.jpg" width="400">
+
+La obtención de los valores de los ejes y la actualización de los datos de control se actualiza continuamente, así como se verifica el modo de operación actual ya sea con los botones X o Círculo. 
+
 ## Visualización Coppelia
 
-## Configuración de la cámara
+Este archivo de lanzamiento en ROS2 automatiza la apertura de CoppeliaSim con una escena predefinida. Para ello, localiza el paquete donde se encuentra la escena y ejecuta el simulador como un proceso externo. Esto permite que CoppeliaSim se inicie junto con otros nodos de ROS2, facilitando la integración y automatizando el flujo de trabajo sin necesidad de abrir el simulador manualmente.
+
+<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/entregables/ps4_photo.jpg" width="400">
+
 ## Hacer mover el robot
