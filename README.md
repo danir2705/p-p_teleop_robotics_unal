@@ -92,6 +92,8 @@ Se realizaron pruebas en MATLAB con vectores de prueba y en el nodo de ROS2. Amb
 
 ![image](https://github.com/user-attachments/assets/15f25ea2-f42a-4849-a6e5-9cdadc402d2d) ![image](https://github.com/user-attachments/assets/219fa95e-96cf-4b3f-aaec-4c8e0d0101f5)
 
+# Pasos del proceso y Arquitectura del Sistema
+
 ## Diagrama de Flujo 
 
 <img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/entregables/flow_diagram.png" width="400">
@@ -102,7 +104,7 @@ Posteriormente, el flujo contempla la opción de seleccionar el modo de operaci�
 
 El flujo culmina con la integración de la simulación en MATLAB, donde un nodo puente o plugin se encarga de traducir los comandos recibidos a acciones en el entorno virtual, garantizando que la simulación refleje de manera precisa el comportamiento del robot. Este ciclo se repite de forma continua mientras el sistema esté en operación, permitiendo la actualización en tiempo real de los estados del robot y de la simulación, hasta que se emita una orden de parada o finalice la rutina programada. En conjunto, el diagrama de flujo representa un sistema de teleoperación robusto y dinámico, en el que la interconexión entre nodos y tópicos de ROS permite una comunicación fluida entre la interfaz de usuario, el cálculo de la cinemática y la ejecución en entornos tanto reales como simulados.
 
-## Arquitectura del Sistema : Nodos y tópicos
+##  Nodos y tópicos
 
 <img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/entregables/Nodos.jpg" width="400">
 
@@ -118,6 +120,8 @@ El sistema se organiza en los siguientes nodos:
 
 * 'phantom_mode (gemelo digital)': Representa la simulación del robot en un entorno virtual, permitiendo probar y visualizar el comportamiento del brazo antes de ejecutarlo físicamente.
 
+# Estación remota y visualización
+
 ## Configuración Joystick --- Botones (Control)
 
 Se divide en dos archivos principales: PS4Controller.py, que maneja la lectura de los datos del joystick, y joy_tracker.py, que actúa como un nodo de ROS2 publicando la información procesada en tópicos específicos. Para el primero se usa una función que escuha los eventors del joystick y actualiza los valores según el botón (en un boleano) o devuelve un vector con los valores de los ejes. Por otro lado, joy_tracker.py define el nodo PhantomJoy, que se encarga de recibir la información del joystick y publicarla en ROS2. Este nodo tiene dos publicadores: uno para enviar velocidades como un mensaje Twist en el tópico joy_vel y otro para enviar el modo de operación (manual o automático) como un mensaje Bool en el tópico operation_mode.
@@ -126,10 +130,12 @@ Se divide en dos archivos principales: PS4Controller.py, que maneja la lectura d
 
 La obtención de los valores de los ejes y la actualización de los datos de control se actualiza continuamente, así como se verifica el modo de operación actual ya sea con los botones X o Círculo. 
 
-## Visualización Coppelia
+## Visualización Coppelia y R_viz
 
 Este archivo de lanzamiento en ROS2 automatiza la apertura de CoppeliaSim con una escena predefinida. Para ello, localiza el paquete donde se encuentra la escena y ejecuta el simulador como un proceso externo. Esto permite que CoppeliaSim se inicie junto con otros nodos de ROS2, facilitando la integración y automatizando el flujo de trabajo sin necesidad de abrir el simulador manualmente.
 
-<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/entregables/ps4_photo.jpg" width="400">
+<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/entregables/sim_coppelia.jpg" width="400">
 
-## Hacer mover el robot
+## Trayectoria y rutina
+
+# Implementación final
