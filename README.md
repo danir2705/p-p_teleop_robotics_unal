@@ -106,7 +106,7 @@ source install/setup.bash
 
 ## Diagrama de Flujo 
 
-<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/images/flow_diagram.png" width="400">
+<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/entregables/flow_diagram.png" width="400">
 
 El diagrama de flujo, describe de forma integrada el proceso de teleoperación y simulación del robot Phantom X Pincher. El sistema se inicia mediante un archivo de lanzamiento (launch file) que pone en marcha el nodo maestro y todos los componentes esenciales, tales como el nodo de hardware que gestiona el robot, el nodo que se suscribe a los estados articulares (a través del tópico /joint_states) y los nodos o servicios de cinemática inversa, los cuales son responsables de traducir las posiciones deseadas en ángulos articulares adecuados. En este punto, se verifica la conexión y la operatividad del robot; si se detecta alguna anomalía, se reintenta la conexión o se detiene la ejecución del sistema.
 
