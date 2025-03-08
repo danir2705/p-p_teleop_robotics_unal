@@ -18,8 +18,6 @@ Este repositorio contiene la implementación de un sistema de teleoperación par
 - Integración con un **joystick** para la teleoperación manual.
 - Validación en **MATLAB**.
 
-https://github.com/user-attachments/assets/239e5915-81ff-4cf4-8658-5d4d0e4ac135
-
 #### Instalación y Configuración
 
 ##### Requisitos Previos
@@ -106,6 +104,7 @@ Posteriormente, el flujo contempla la opción de seleccionar el modo de operaci�
 
 El flujo culmina con la integración de la simulación en MATLAB, donde un nodo puente o plugin se encarga de traducir los comandos recibidos a acciones en el entorno virtual, garantizando que la simulación refleje de manera precisa el comportamiento del robot. Este ciclo se repite de forma continua mientras el sistema esté en operación, permitiendo la actualización en tiempo real de los estados del robot y de la simulación, hasta que se emita una orden de parada o finalice la rutina programada. En conjunto, el diagrama de flujo representa un sistema de teleoperación robusto y dinámico, en el que la interconexión entre nodos y tópicos de ROS permite una comunicación fluida entre la interfaz de usuario, el cálculo de la cinemática y la ejecución en entornos tanto reales como simulados.
 
+
 ##  Nodos y tópicos
 
 <img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/entregables/Nodos.jpg" width="400">
@@ -135,6 +134,8 @@ La obtención de los valores de los ejes y la actualización de los datos de con
 ## Visualización Coppelia y R_viz
 
 Este archivo de lanzamiento en ROS2 automatiza la apertura de CoppeliaSim con una escena predefinida. Para ello, localiza el paquete donde se encuentra la escena y ejecuta el simulador como un proceso externo. Esto permite que CoppeliaSim se inicie junto con otros nodos de ROS2, facilitando la integración y automatizando el flujo de trabajo sin necesidad de abrir el simulador manualmente.
+
+https://github.com/user-attachments/assets/239e5915-81ff-4cf4-8658-5d4d0e4ac135
 
 <img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/entregables/sim_coppelia.jpg" width="400">
 
