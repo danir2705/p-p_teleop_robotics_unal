@@ -108,11 +108,11 @@ Se realizaron pruebas en MATLAB con vectores de prueba y en el nodo de ROS2. Amb
 
 ## Diagrama de Flujo 
 
+El diagrama de flujo, describe de forma integrada el proceso de teleoperación y simulación del robot Phantom X Pincher. El sistema se inicia mediante un archivo de lanzamiento (launch file) que pone en marcha el nodo maestro y todos los componentes esenciales, tales como el nodo de hardware que gestiona el robot, el nodo que se suscribe a los estados articulares (a través del tópico /joint_states) y los nodos o servicios de cinemática inversa, los cuales son responsables de traducir las posiciones deseadas en ángulos articulares adecuados. En este punto, se verifica la conexión y la operatividad del robot; si se detecta alguna anomalía, se reintenta la conexión o se detiene la ejecución del sistema.
+
 <p align="center">
 <img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/flow_diagram.png" width="400">
 </p>
-
-El diagrama de flujo, describe de forma integrada el proceso de teleoperación y simulación del robot Phantom X Pincher. El sistema se inicia mediante un archivo de lanzamiento (launch file) que pone en marcha el nodo maestro y todos los componentes esenciales, tales como el nodo de hardware que gestiona el robot, el nodo que se suscribe a los estados articulares (a través del tópico /joint_states) y los nodos o servicios de cinemática inversa, los cuales son responsables de traducir las posiciones deseadas en ángulos articulares adecuados. En este punto, se verifica la conexión y la operatividad del robot; si se detecta alguna anomalía, se reintenta la conexión o se detiene la ejecución del sistema.
 
 Posteriormente, el flujo contempla la opción de seleccionar el modo de operación mediante la integración del joystick, administrado por un nodo que publica en el tópico /joy. Si se opta por el control manual, los datos del joystick se procesan para generar comandos de velocidad o de posición, que posteriormente se convierten en ángulos articulares mediante un nuevo cálculo de cinemática inversa. Alternativamente, en el modo automático se emplean rutinas preprogramadas que definen trayectorias específicas para la ejecución de tareas, eliminando la necesidad de entrada manual. Los comandos resultantes, ya sea derivados de la entrada del joystick o de las trayectorias automáticas, se publican en tópicos correspondientes (por ejemplo, /cmd_vel o un tópico de comandos articulares) para controlar el movimiento del robot.
 
