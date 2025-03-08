@@ -13,7 +13,6 @@
 #include <rclcpp/node.hpp>
 
 #include "dynamixel_sdk/dynamixel_sdk.h"
-#define M_PI 3.1415926
 
 // #include <rclcpp/publisher.hpp>
 // #include <rclcpp/subscription.hpp>

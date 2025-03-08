@@ -1,6 +1,0 @@
-C:/dev/p-p_teleop_robotics_unal/build/move_from_keys/CMakeFiles/uninstall.dir
-C:/dev/p-p_teleop_robotics_unal/build/move_from_keys/CMakeFiles/move_from_keys_uninstall.dir
-C:/dev/p-p_teleop_robotics_unal/build/move_from_keys/CMakeFiles/RUN_TESTS.dir
-C:/dev/p-p_teleop_robotics_unal/build/move_from_keys/CMakeFiles/INSTALL.dir
-C:/dev/p-p_teleop_robotics_unal/build/move_from_keys/CMakeFiles/ALL_BUILD.dir
-C:/dev/p-p_teleop_robotics_unal/build/move_from_keys/CMakeFiles/ZERO_CHECK.dir

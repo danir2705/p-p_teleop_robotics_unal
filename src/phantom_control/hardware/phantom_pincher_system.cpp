@@ -17,10 +17,9 @@
 #include <string>
 #include <vector>
 
-#include <phantom_control/phantom_pincher_system.hpp>
 #include <angles/angles.h>
 #include <rclcpp/executors.hpp>
-
+#include <phantom_control/phantom_pincher_system.hpp>
 
 #include "dynamixel_sdk/dynamixel_sdk.h"
 
@@ -201,7 +200,7 @@ CallbackReturn PhantomPincherSystem::on_configure(const rclcpp_lifecycle::State 
     portHandler,
     dxl_id,
     ADDR_OPERATING_MODE_,
-    3,
+    1,
     &dxl_error
   );
 

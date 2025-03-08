@@ -38,10 +38,9 @@
 #include <string>
 #include <vector>
 
-#include <phantom_control/topic_based_system.hpp>
 #include <angles/angles.h>
 #include <rclcpp/executors.hpp>
-
+#include <phantom_control/topic_based_system.hpp>
 
 namespace
 {

@@ -22,10 +22,10 @@
     <xacro:include filename="$(find phantom_description)/urdf/turtlebot_arm.xacro"/>
 
     <!-- <xacro:include filename="$(find phantom_control)/description/phantom.ros2_control.xacro"/> -->
-    <!--<xacro:include filename="$(find phantom_control)/description/physical_phantom.ros2_control.xacro"/>
+    <xacro:include filename="$(find phantom_control)/description/physical_phantom.ros2_control.xacro"/>
 
     <xacro:call macro="phantom_ros2_control" name="turtlebot_arm" prefix=""/>
--->
+
     <!-- As we don't have here a turtlebot base, add a base_link link as its location reference -->
     <link name="base_link"/>
      <xacro:call macro="arm_mount" name="arm_mount" parent="base_link" color="Black">

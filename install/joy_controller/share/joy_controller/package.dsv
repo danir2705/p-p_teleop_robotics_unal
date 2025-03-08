@@ -1,6 +1,0 @@
-source;share\joy_controller\hook\pythonpath.ps1
-source;share\joy_controller\hook\pythonpath.bat
-source;share\joy_controller\hook\pythonpath.dsv
-source;share\joy_controller\hook\ament_prefix_path.ps1
-source;share\joy_controller\hook\ament_prefix_path.bat
-source;share\joy_controller\hook\ament_prefix_path.dsv
