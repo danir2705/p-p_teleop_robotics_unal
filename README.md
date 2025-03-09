@@ -136,6 +136,10 @@ El sistema se organiza en los siguientes nodos:
 
 * 'phantom_mode (gemelo digital)': Representa la simulación del robot en un entorno virtual, permitiendo probar y visualizar el comportamiento del brazo antes de ejecutarlo físicamente.
 
+<p align="center">
+<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/rosgraph.png" width="200">
+</p>
+
 # Estación remota y visualización
 
 ## Configuración Joystick --- Botones (Control)
@@ -161,3 +165,10 @@ Este archivo de lanzamiento en ROS2 automatiza la apertura de CoppeliaSim con un
 https://github.com/user-attachments/assets/239e5915-81ff-4cf4-8658-5d4d0e4ac135
 
 # Implementación final
+
+<div align="center">
+  <a href="https://drive.google.com/file/d/11eDLsTr2OdRrjGnuTbBnuILa6CpbUE7G/view?usp=drive_link">
+  <img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/large.png" width="300">
+  </a>
+  <p><em>Click en la imagen para abrir video</em></p>
+</div>
