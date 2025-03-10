@@ -137,7 +137,7 @@ El sistema se organiza en los siguientes nodos:
 * 'phantom_mode (gemelo digital)': Representa la simulación del robot en un entorno virtual, permitiendo probar y visualizar el comportamiento del brazo antes de ejecutarlo físicamente.
 
 <p align="center">
-<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/rosgraph.png" width="200">
+<img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/rosgraph.png" width="900">
 </p>
 
 # Estación remota y visualización
