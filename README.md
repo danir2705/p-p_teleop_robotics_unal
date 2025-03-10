@@ -163,8 +163,8 @@ Este archivo de lanzamiento en ROS2 automatiza la apertura de CoppeliaSim con un
 ## Trayectoria y rutina
 
 <div align="center">
-  <a href="https://drive.google.com/file/d/11eDLsTr2OdRrjGnuTbBnuILa6CpbUE7G/view?usp=drive_link">
-  <img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/simulacion.png" width="300">
+  <a href="https://drive.google.com/file/d/1Udc-wwv2dIOUX_I1wh8XVtV829M44O2a/view?usp=sharing">
+  <img src="https://github.com/danir2705/p-p_teleop_robotics_unal/blob/main/figures/simulacion.png" width="400">
   </a>
   <p><em>Click en la imagen para abrir video</em></p>
 </div>
