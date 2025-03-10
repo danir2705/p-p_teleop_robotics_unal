@@ -162,7 +162,7 @@ Este archivo de lanzamiento en ROS2 automatiza la apertura de CoppeliaSim con un
 
 ## Trayectoria y rutina
 
-https://github.com/user-attachments/assets/239e5915-81ff-4cf4-8658-5d4d0e4ac135
+https://github.com/user-attachments/assets/f001d09c-0b4f-43d1-ba85-e3eddd0f48fe
 
 # Implementación final
 
